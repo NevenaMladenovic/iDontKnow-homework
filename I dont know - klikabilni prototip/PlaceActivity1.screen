@@ -1,0 +1,176 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="c4c2222f-3b1b-40d4-af98-8195eaef80bf">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="6fcad2b7-7438-4e8f-823a-aec7e2401958">
+            <Content.Layers>
+                <Layer Id="635db368-6616-4937-bc64-d0b4fb4da513" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="fe528109-ec09-4fa3-97a0-a757a4f5860c" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="9a86d526-2604-485b-a7b1-9a0694ddee57" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="f3bb0ce8-f34f-434b-8bce-11c146a16550" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/28/2019 04:26:40" Id="6ba28362-471f-428c-a2a7-bc506ceeb1e8">
+            <Scene.KeyFrames>
+                <KeyFrame Id="5de21011-a9f3-4dcd-8859-cfa8c6358931">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <i:Label RichText="&lt;Run FontSize=&quot;18&quot; &gt;Komuna Gastro Bar&lt;/Run&gt;" Foreground="#FF000000" FontSize="17" FontStyle="Bold" Id="2ec93d8c-d32f-4948-9e2e-955192c0655c" Panel.Bounds="171,25,205,39" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <i:Label RichText="8:00 - 00:00" Foreground="#FF8E8E8E" Id="6ef31d5f-ffcc-4aca-98ca-301dc5dc0a39" Panel.Bounds="171,97,124,32" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="4c28d21b-85ca-4a15-bdda-481a52a9298d" Panel.Bounds="115,47,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-star" Id="1c69d7d5-6e33-4527-ac89-04c03809b1dd" Panel.Bounds="89,14,29{5,2147483647},29{5,2147483647}" />
+                                        <Icon CatalogId="fa-star" Id="754ae03d-f682-4d40-89b4-a579dc6835ee" Panel.Bounds="56,14,29{5,2147483647},29{5,2147483647}" />
+                                        <Icon CatalogId="fa-star" Id="270f0366-fbcd-428a-9e0c-759d8f7a7ae4" Panel.Bounds="120,14,29{5,2147483647},29{5,2147483647}" />
+                                        <Icon CatalogId="fa-star" Id="b97d8635-b182-46ec-b7fa-2f660475ff21" Panel.Bounds="154,14,29{5,2147483647},29{5,2147483647}" />
+                                        <Icon CatalogId="fa-star" Id="5e55d30a-fb3f-4e59-ab06-dfa0314cd4b2" Panel.Bounds="190,14,29{5,2147483647},29{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <Image SourcePath="assets/komuna.jpg" Id="3eb104bd-e1ff-43ad-9d0e-cdf29a247ae9" Panel.Bounds="25,31,124{5,2147483647},124{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <i:Label RichText="Nikole Pašića 36, Niš" Foreground="#FF8E8E8E" Id="4a39e589-df44-4868-a18d-58c2f20b0f14" Panel.Bounds="170,124,0*,0*" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="7dd03ead-5c57-4740-b308-fe556db14e64" Panel.Bounds="108,270,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-sort-numeric-desc" Id="de087049-d837-4fb1-b33d-3527d838c8cc" Panel.Bounds="0,2,18{5,2147483647},18{5,2147483647}" />
+                                        <Icon CatalogId="fa-star" Id="a146c450-1e35-4a78-b4e7-1d24bde61280" Panel.Bounds="9,0,11{5,2147483647},11{5,2147483647}" />
+                                        <Icon CatalogId="fa-star-o" Id="9c575741-b142-4de9-b813-5749e7abe8e4" Panel.Bounds="9,11,11{5,2147483647},11{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <Icon CatalogId="fa-sort-amount-asc" Id="b99713cb-09c5-43f3-88a2-a641dabaf546" Panel.Bounds="240,274,18{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <Button Text="Write a review" FontFamily="Open Sans" Id="3ab284d7-5f9f-41b0-980a-4ea548c33bc3" Panel.Bounds="131,180,149{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="63a82cee-668c-46da-80d0-df994be053dd" Created="06/01/2019 23:30:21" Id="5f0ff3ef-1355-4655-aa76-5051e56d4ac6" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <Line Thickness="1" Background="#00FFFFFF" Id="69aa474c-1ac2-4d57-b38c-b99dfef53271" Panel.Bounds="31,250,367{1,2147483647},3{1,2147483647}">
+                                    <Line.StartPoint>
+                                        <Point X="51" Y="-39" Id="a8a47e44-ddc4-4730-a417-ccb6cef3ba59" />
+                                    </Line.StartPoint>
+                                    <Line.Segments>
+                                        <Segment Id="9cf06b17-1e84-409a-9a49-5bcca8278d87">
+                                            <Segment.EndPoint>
+                                                <Point X="418" Y="-39" Id="27edd6d8-b4b3-432f-9e6f-3fcd4fc8fa08" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Line.Segments>
+                                </Line>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <i:Label RichText="&lt;Run FontSize=&quot;16&quot; &gt;Sort by&lt;/Run&gt;" FontFamily="Open Sans" Id="7d7d2817-b5f2-4815-bdb0-00e1cd39760a" Panel.Bounds="21,272,53*{5,2147483647},20{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <i:Label RichText="stars" FontFamily="Open Sans" Id="5d9d640f-c1c3-4eb3-88f4-e9140eca9803" Panel.Bounds="134,274,32*{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <i:Label RichText="date" FontFamily="Open Sans" Id="bfb8e30c-338f-4385-81b0-85d91e2c59c3" Panel.Bounds="269,274,30*{5,2147483647},18{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/UserReview.screenpart" Id="be8ca048-51c8-49f3-8fe5-d5350e467b14" Panel.Bounds="0,312,416*{5,2147483647},306{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Resize To="416,307" Target="1935da7f-9b4a-45b7-a869-1006a098ee91" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" Foreground="#FF00574B" FontFamily="Open Sans" Id="a9b82882-fda1-467f-b911-ae33cd46ae0e" Name="BackToMain" Panel.Bounds="25,633,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/MainActivity.screen" Created="06/02/2019 12:25:43" Id="f286d4bb-6082-47d7-9682-e40ebe3c022b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Write a review" StateGroup="6ba28362-471f-428c-a2a7-bc506ceeb1e8" ParentScene="6ba28362-471f-428c-a2a7-bc506ceeb1e8" Created="06/01/2019 23:30:21" Id="63a82cee-668c-46da-80d0-df994be053dd">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a0a684ce-b107-4ea9-924a-4a86e4aedbff">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <Rectangle Background="#AAE2E2E2" Id="d3edd276-79d7-473e-a2eb-5248fc24235a" Panel.Bounds="0,0,411{5,2147483647},689{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="635db368-6616-4937-bc64-d0b4fb4da513">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/WriteReview.screenpart" Id="5077a896-449a-4211-911b-b24ad26d4628" Panel.Bounds="18,219,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="95d3f9b0-6eda-4be6-85a9-e03be0186549">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="6ba28362-471f-428c-a2a7-bc506ceeb1e8" Created="06/01/2019 23:34:33" Id="a40f9784-3795-45c4-a279-36a42277d544" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="6620502c-3993-474c-92b0-ea7e1bbc8378">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="6ba28362-471f-428c-a2a7-bc506ceeb1e8" Created="06/01/2019 23:35:07" Id="4f292958-527c-4f6d-8650-aa43f4209966" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Set Property="ViewElement.Name" Value="ExitDialog" Target="95d3f9b0-6eda-4be6-85a9-e03be0186549" />
+                                        <Set Property="ViewElement.Name" Value="SaveDialog" Target="6620502c-3993-474c-92b0-ea7e1bbc8378" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

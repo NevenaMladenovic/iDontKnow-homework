@@ -1,0 +1,48 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                     Id="271160af-2a77-4ecd-ad91-aa9cb592742a" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="385" Height="527" Background="#00FFFFFF" Id="179aee60-c7d2-4376-a9f5-3238bf4e0cf5">
+            <BorderedContent.Layers>
+                <Layer Id="84388911-56a5-41ad-8939-a1375bf3caa6" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="de9b8653-c4c3-4416-a494-f657d9bd229f" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="8e6e5f66-f301-490e-b50c-95a13df3b6bf" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="21475a42-b512-4eba-839c-b35ddcb755b2" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="05/28/2019 02:09:37" Id="8624ab17-e6b1-40d0-8855-5dd5d6d95662">
+            <Scene.KeyFrames>
+                <KeyFrame Id="596ec86d-0124-410e-9198-18e79c680065">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Before="2661e37b-fe69-4fe7-adae-69eca5e558e9" Target="84388911-56a5-41ad-8939-a1375bf3caa6">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="a68eebbe-7a74-4b3a-aeda-41e8e8dd0a26">
+                                    <Group.Children>
+                                        <i:Header FontSize="16" FontFamily="Open Sans" Id="d4b4fc67-67f8-4581-8389-98c919973c92" Panel.Bounds="0,0,385{5,2147483647},95{20,2147483647}" />
+                                        <Icon CatalogId="fa-bars" Id="2661e37b-fe69-4fe7-adae-69eca5e558e9" Panel.Bounds="23,25,39{5,2147483647},39{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="84388911-56a5-41ad-8939-a1375bf3caa6">
+                            <Add.Item>
+                                <i:Toolbar Id="b8d41ea2-eeb0-440c-92e9-fd3e987d2356" Panel.Bounds="0,95,82{5,2147483647},432{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

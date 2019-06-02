@@ -1,0 +1,74 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="6213ff6f-28cc-4c5b-bdea-81180b4e063c" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="375" Height="213" Background="#00FFFFFF" Id="a0d89539-deb7-495a-8365-264ddf5d6aaf">
+            <BorderedContent.Layers>
+                <Layer Id="c6a51998-01a9-4207-9d3b-6bb7761a7032" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="db2153cc-4aa5-4a73-942e-3302c330f8ab" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="a836b3cf-edd3-4fd5-a8d9-972558550b3f" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="b7cf8bc2-9321-4d23-bb92-a0e4de6d9a73" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="06/01/2019 23:17:37" Id="08984828-a907-424a-88dc-2af6f6cb7673">
+            <Scene.KeyFrames>
+                <KeyFrame Id="13f1a330-a7fa-4b9a-bb2a-8c9cd2492e8c">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="c6a51998-01a9-4207-9d3b-6bb7761a7032">
+                            <Add.Item>
+                                <ContainerBox Id="6387dcbd-9e0a-4258-83eb-3b350c23b89b" Panel.Bounds="0,0,375{5,2147483647},214{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="35ac3ebe-0905-4c6d-ad72-e8ad971cc57f" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c6a51998-01a9-4207-9d3b-6bb7761a7032">
+                            <Add.Item>
+                                <Button Text="Save" FontFamily="Open Sans" Id="6620502c-3993-474c-92b0-ea7e1bbc8378" Panel.Bounds="147,171,80{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c6a51998-01a9-4207-9d3b-6bb7761a7032">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="3a082fbd-e9e5-4758-ba60-1a7842030281" Panel.Bounds="129,38,0*,0*">
+                                    <Group.Children>
+                                        <Icon CatalogId="fa-star-o" Id="977fb827-1d8c-4fb2-a7f9-76441d0a9eff" Panel.Bounds="23,-4,21{5,2147483647},21{5,2147483647}" />
+                                        <Icon CatalogId="fa-star-o" Id="07fd7831-23cb-4ac1-8138-a12d191115e0" Panel.Bounds="0,-4,21{5,2147483647},21{5,2147483647}" />
+                                        <Icon CatalogId="fa-star-o" Id="08e078e7-f106-49dd-99dd-c8e531a28531" Panel.Bounds="45,-4,21{5,2147483647},21{5,2147483647}" />
+                                        <Icon CatalogId="fa-star-o" Id="f0446101-e1ff-40db-ac1b-c3be27da9157" Panel.Bounds="69,-4,21{5,2147483647},21{5,2147483647}" />
+                                        <Icon CatalogId="fa-star-o" Id="669e229c-3f36-4148-b1b9-9cc5e667fed2" Panel.Bounds="94,-4,21{5,2147483647},21{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c6a51998-01a9-4207-9d3b-6bb7761a7032">
+                            <Add.Item>
+                                <TextArea WatermarkText="Write your review..." FontFamily="Open Sans" Id="8eba6cf4-a0cd-49ea-afb0-203b01b3528e" Panel.Bounds="10,72,354{5,2147483647},88{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c6a51998-01a9-4207-9d3b-6bb7761a7032">
+                            <Add.Item>
+                                <Icon CatalogId="fa-times-circle" Id="95d3f9b0-6eda-4be6-85a9-e03be0186549" Panel.Bounds="340,7,28{5,2147483647},28{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="c6a51998-01a9-4207-9d3b-6bb7761a7032">
+                            <Add.Item>
+                                <Label RichText="Rate this place" FontFamily="Open Sans" FontStyle="Normal" Id="c7ee6cf9-03f4-4e3c-af0f-f580022b5ed6" Panel.Bounds="14,36,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

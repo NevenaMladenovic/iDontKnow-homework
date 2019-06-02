@@ -1,0 +1,129 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="9f220318-cb97-468a-9932-f00c944b5a49">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="072a3493-32cd-47fb-995b-20ba6a202c9e">
+            <Content.Layers>
+                <Layer Id="0b3cfe2a-5df8-49b9-8f70-c98038bb74ae" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="34423629-42dd-45fe-9f93-8b146688bff1" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="6cad1390-476e-4634-83e8-9ee390f8da1c" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="15b46ac0-1471-4178-99f2-29266d2ab6fe" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/26/2019 21:56:15" Id="9ea87f0d-9ee2-492d-9866-f6cf3f82f07c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="76b3061b-98b9-4480-9706-6a1fa4543c32">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0b3cfe2a-5df8-49b9-8f70-c98038bb74ae">
+                            <Add.Item>
+                                <TextBox WatermarkText="Enter your nickname" Align="Left" Id="e4509b56-a537-491f-8e07-9f2e3363d729" Panel.Bounds="103,308,205{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0b3cfe2a-5df8-49b9-8f70-c98038bb74ae">
+                            <Add.Item>
+                                <PasswordBox WatermarkText="Enter your password" Id="5f5ce8f4-f8c7-42f9-848b-2b29c0f2e829" Panel.Bounds="103,362,205{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0b3cfe2a-5df8-49b9-8f70-c98038bb74ae">
+                            <Add.Item>
+                                <Button Text="LOGIN" Id="298b608f-7056-4364-8b83-26e6e007588b" Panel.Bounds="103,444,205{5,2147483647},29{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/MainActivity.screen" Created="05/28/2019 00:54:51" Id="6a3cb457-c1c9-46d5-b942-edd949f781f5">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0b3cfe2a-5df8-49b9-8f70-c98038bb74ae">
+                            <Add.Item>
+                                <Link Text="Forgot your password?" FontStyle="Normal|Underline" Id="e77a9e61-be68-4ced-8125-d8687fb80ee4" Panel.Bounds="134,494,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0b3cfe2a-5df8-49b9-8f70-c98038bb74ae">
+                            <Add.Item>
+                                <Link Text="Don't have an account? Create one!" FontStyle="Normal|Underline" Id="9672969c-035a-4e9a-a36c-f1c8dd0d9a97" Name="onClick" Panel.Bounds="96,533,5*{5,2147483647},5*{5,2147483647}">
+                                    <Link.Click>
+                                        <CommandNavigate Screen="/RegisterActivity.screen" Created="05/27/2019 21:06:00" Id="8b0f1d0f-ca03-4916-be36-c47d1eb5f1b3">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Link.Click>
+                                </Link>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0b3cfe2a-5df8-49b9-8f70-c98038bb74ae">
+                            <Add.Item>
+                                <Image SourcePath="assets/logo2.png" Id="94e38a5d-f06b-481c-8142-6351b9e2a4a6" Panel.Bounds="72,39,267{5,2147483647},195{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="7dfa46ba-1abd-48d2-8a6f-4d6d2483c599" Target="0b3cfe2a-5df8-49b9-8f70-c98038bb74ae">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="ff431301-21d5-406f-9a96-671b7717cec3" Panel.Bounds="134,578,0*,0*">
+                                    <Group.Children>
+                                        <Button Text="Sign in" FontFamily="Open Sans" Id="4e7b4028-81ff-4f8a-987b-d8c7a44e123a" Panel.Bounds="0,0,143{5,2147483647},29{5,2147483647}" />
+                                        <Icon CatalogId="fa-google" Id="7dfa46ba-1abd-48d2-8a6f-4d6d2483c599" Panel.Bounds="9,5,19{5,2147483647},19{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandSwitchTo SceneId="537e70b4-64e6-4982-80a9-9faa346d6595" Created="05/29/2019 10:24:29" Id="cbbd29b4-489f-4b84-b2c6-d90649a48aab" />
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped Group" StateGroup="9ea87f0d-9ee2-492d-9866-f6cf3f82f07c" ParentScene="9ea87f0d-9ee2-492d-9866-f6cf3f82f07c" Created="05/29/2019 10:24:29" Id="537e70b4-64e6-4982-80a9-9faa346d6595">
+            <Scene.KeyFrames>
+                <KeyFrame Id="58be6928-fa5b-48a3-95d3-c8ef6ba4bad7">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0b3cfe2a-5df8-49b9-8f70-c98038bb74ae">
+                            <Add.Item>
+                                <Rectangle Background="#AAE2E2E2" Id="0a8fb4fa-fbee-4090-90e8-c93908d6b765" Panel.Bounds="0,0,411{5,2147483647},689{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="0b3cfe2a-5df8-49b9-8f70-c98038bb74ae">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/GoogleSignUp.screenpart" Id="256e2f7e-c530-46a1-90a0-76315c5b634d" Panel.Bounds="55,109,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="c80a25d4-ab2b-450f-adbc-6b39d53b44d3">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/MainActivity.screen" Created="05/29/2019 10:45:19" Id="32bf0aee-dcb5-49c9-98a8-a00098d9d17c">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="3fa86e94-d6ab-4a9c-b47a-96d6ba782088">
+                                            <Add.Item>
+                                                <CommandNavigate Screen="/MainActivity.screen" Created="05/29/2019 10:45:47" Id="e5241ab8-07c7-489d-beae-eb989ec0b846">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Add.Item>
+                                        </Add>
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

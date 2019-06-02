@@ -1,0 +1,63 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                     Id="748358fd-7f95-48d9-ab9d-d6624130b3fe" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="406" Height="112" Background="#00FFFFFF" Id="e703a3df-4fba-46a2-a251-6dbe69a1a306">
+            <BorderedContent.Layers>
+                <Layer Id="efc4bac5-0ea6-41ff-a9cf-58e37ac5f86c" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="43f16030-fe93-4c06-b8ea-d64d869ff0f4" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="aa33c0de-9cb1-4133-8a67-5280193052d6" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="1d60e533-4635-4275-9e7b-7da99aeee73e" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="05/28/2019 02:06:34" Id="02122ca2-2f30-484e-b542-1f562e9701ac">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a1ca6178-183b-4ae9-be6b-cd68fd6bcb65">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="efc4bac5-0ea6-41ff-a9cf-58e37ac5f86c">
+                            <Add.Item>
+                                <i:Header FontSize="16" FontFamily="Open Sans" Id="d4b4fc67-67f8-4581-8389-98c919973c92" Panel.Bounds="0,0,406{5,2147483647},112{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="efc4bac5-0ea6-41ff-a9cf-58e37ac5f86c">
+                            <Add.Item>
+                                <Icon CatalogId="fa-bars" Id="c2f9b3d4-6882-406c-bbab-f3c17dc83c7d" Panel.Bounds="17,24,56{5,2147483647},56{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="c5f072ae-0838-4bef-a189-4ac35af8f2d9" Created="05/28/2019 02:08:54" Id="61495bfe-8fda-4897-aa5d-8bc6a74aa5d5" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked fa-bars" StateGroup="02122ca2-2f30-484e-b542-1f562e9701ac" ParentScene="02122ca2-2f30-484e-b542-1f562e9701ac" Created="05/28/2019 02:08:54" Id="c5f072ae-0838-4bef-a189-4ac35af8f2d9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3111c7ad-7be4-48cf-a0ec-62b07069e54f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="efc4bac5-0ea6-41ff-a9cf-58e37ac5f86c">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/Screenpart1.screenpart" Id="1d66b8ca-a90d-437d-b084-cffe06946c19" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.Height" Value="95" Target="e703a3df-4fba-46a2-a251-6dbe69a1a306" />
+                        <Set Property="Content.Width" Value="384" Target="e703a3df-4fba-46a2-a251-6dbe69a1a306" />
+                        <Remove Target="d4b4fc67-67f8-4581-8389-98c919973c92" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

@@ -1,0 +1,47 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="78a10809-6579-4391-a18e-012b555f5bbc" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="420" Height="470" Background="#00FFFFFF" Id="36210799-0b71-4781-91ff-6f15a3b9528a">
+            <BorderedContent.Layers>
+                <Layer Id="828f4055-2079-4015-aace-8b951c0da844" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="36a43edc-9047-4a44-b7c1-f939ffba9506" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="00bc194a-8836-42a4-8b15-3b6f1f91af08" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="fb206460-6703-4b3e-a95a-b90ec097ada6" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="05/29/2019 11:47:00" Id="f82d066c-322e-41b7-bce5-a743ff5776d9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="33b1ef35-40ff-4f1d-b0e8-c3fadabe554f">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="828f4055-2079-4015-aace-8b951c0da844">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/List.screenpart" Id="ea1ec633-e742-44cd-a57c-8fdfa1b2e62f" Panel.Bounds="3,6,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Remove Target="cf40a3e5-7e06-4622-8edb-6df4e25cfbda" />
+                                        <Remove Target="3d53b5e8-4597-49f5-a2f5-bd9dfc158470" />
+                                        <Remove Target="8e08196a-e8e1-4efd-ab9e-56b013ebd21f" />
+                                        <Remove Target="783e1b2a-60ca-4b0c-8bd2-813f4521f943" />
+                                        <Remove Target="f5ef935a-f758-472c-a78f-45992f8eb1b8" />
+                                        <Remove Target="b0c740d9-0595-42bc-bc1e-3adcf9f00007" />
+                                        <Remove Target="785ea42d-9872-4f8d-8841-7025e888f48b.469b1beb-e773-4691-92a5-cd79f6ff4a68" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

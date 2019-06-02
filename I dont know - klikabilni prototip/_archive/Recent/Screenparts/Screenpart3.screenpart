@@ -1,0 +1,99 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                     Id="79ef5f9f-5a42-4503-b3dc-4d3ccd417a21" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="192" Height="352" Background="#00FFFFFF" Id="b53826ce-ec16-4e7c-9f23-0ac7eeb20616">
+            <BorderedContent.Layers>
+                <Layer Id="a8f0c1e7-23ad-4dc0-bc5e-4768922d3cd2" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="ccd35d40-c63d-49c6-9d76-606a4007220e" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="0db7e76a-99bd-4fcf-b229-582fdbb76adb" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="5e747d19-dcf4-4380-9e00-425d3afcc27a" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="05/28/2019 02:40:18" Id="d5e5206a-b3e1-49ea-885c-897e847cced3">
+            <Scene.KeyFrames>
+                <KeyFrame Id="bed80d4d-36d9-4045-b5a5-071ed6c39b58">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a8f0c1e7-23ad-4dc0-bc5e-4768922d3cd2">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideMenu open.screenpart" Id="c5b89dbe-0c73-48a8-88d3-8c128cd4623c">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Panel.Children" Before="58e1e7f5-ec7c-46b0-917a-85a8526483c3" Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f">
+                                            <Add.Item>
+                                                <Group GroupName="Group" Id="b274feab-8f25-4637-a205-079821a09623" Panel.Bounds="3,-15,0*,0*" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Panel.Children" Before="9c6d2b77-2c55-4f60-9096-147d433b5e1c" Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f">
+                                            <Add.Item>
+                                                <Group GroupName="Group" Id="51174f64-f35a-4f53-b29b-2ad4a7e2a54a" Panel.Bounds="3,28,0*,0*" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Panel.Children" Before="f171b1c6-c4e1-44d7-b2be-c5dbc8e0f519" Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f">
+                                            <Add.Item>
+                                                <Group GroupName="Group" Id="29971979-f242-4929-a68c-ad5165ca7637" Panel.Bounds="3,71,0*,0*">
+                                                    <Group.Children>
+                                                        <Image SourcePath="assets/pizza(1).png" Id="d5c9e525-f06c-4a3c-a946-58d306d3c606" Panel.Bounds="91,0,30{5,2147483647},30{5,2147483647}" />
+                                                    </Group.Children>
+                                                </Group>
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Panel.Children" Before="a7ce103e-80cf-4940-bce2-7e5172e8a6dc" Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f">
+                                            <Add.Item>
+                                                <Group GroupName="Group" Id="0e22d5a7-22ee-4bd8-8005-8896641338c0" Panel.Bounds="3,191,0*,0*" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Panel.Children" Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f">
+                                            <Add.Item>
+                                                <Group GroupName="Group" Id="851125f9-a717-4f6f-b0c8-82d854e0b126" Panel.Bounds="3,114,0*,0*">
+                                                    <Group.Children>
+                                                        <i:Label RichText="Gastobar" FontFamily="Open Sans" Id="548151a9-ebce-44b9-82a5-e481dc60f437" Panel.Bounds="0,6,5*{5,2147483647},5*{5,2147483647}" />
+                                                        <Icon CatalogId="fa-glass" Id="46d74b79-f348-4edc-9e86-c9f293336952" Panel.Bounds="92,0,26{5,2147483647},26{5,2147483647}" />
+                                                    </Group.Children>
+                                                </Group>
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Panel.Children" Before="0e22d5a7-22ee-4bd8-8005-8896641338c0" Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f">
+                                            <Add.Item>
+                                                <Group GroupName="Group" Id="e43fefb6-14ea-4c05-b111-463ed7ce6195" Panel.Bounds="3,148,0*,0*" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Set Property="Icon.CatalogId" Value="fa-angle-double-left" Target="38bbd78f-4820-437c-9107-b87084925509" />
+                                        <Move To="91,2" At="b274feab-8f25-4637-a205-079821a09623" Target="58e1e7f5-ec7c-46b0-917a-85a8526483c3" />
+                                        <Move At="b274feab-8f25-4637-a205-079821a09623" Target="80263c5b-eda7-4f9d-93c9-f92e3144ec7a" />
+                                        <Set Property="Label.RichText" Value="Caffee Shop" Target="80263c5b-eda7-4f9d-93c9-f92e3144ec7a" />
+                                        <Move To="89,0" At="51174f64-f35a-4f53-b29b-2ad4a7e2a54a" Target="9c6d2b77-2c55-4f60-9096-147d433b5e1c" />
+                                        <Move To="0,6" At="51174f64-f35a-4f53-b29b-2ad4a7e2a54a" Target="42c1cf90-37c7-4625-bf52-de73dc7ab7fb" />
+                                        <Set Property="Label.RichText" Value="Beerhouse" Target="42c1cf90-37c7-4625-bf52-de73dc7ab7fb" />
+                                        <Move To="0,6" At="29971979-f242-4929-a68c-ad5165ca7637" Before="d5c9e525-f06c-4a3c-a946-58d306d3c606" Target="35c6fc20-16d6-403c-a994-4575aad32f8f" />
+                                        <Move To="89,-2" At="0e22d5a7-22ee-4bd8-8005-8896641338c0" Target="a7ce103e-80cf-4940-bce2-7e5172e8a6dc" />
+                                        <Move To="0,7" At="0e22d5a7-22ee-4bd8-8005-8896641338c0" Target="f171b1c6-c4e1-44d7-b2be-c5dbc8e0f519" />
+                                        <Move To="0,10" At="e43fefb6-14ea-4c05-b111-463ed7ce6195" Target="c30434a5-bce3-45ae-afb2-ba66f2957318" />
+                                        <Move To="91,0" At="e43fefb6-14ea-4c05-b111-463ed7ce6195" Before="c30434a5-bce3-45ae-afb2-ba66f2957318" Target="e13fe669-5de2-40c8-b852-edd2501a0e98" />
+                                        <Set Property="Slider.Value" Value="50" Target="7c9d370b-cfe0-44c6-86d3-a2f8be0d3074" />
+                                        <Move To="3,287" Target="7c9d370b-cfe0-44c6-86d3-a2f8be0d3074" />
+                                        <Move To="3,263" Target="29f8f6c8-32be-40ff-b865-709c8fa04e81" />
+                                        <Resize To="30,30" Target="58e1e7f5-ec7c-46b0-917a-85a8526483c3" />
+                                        <Set Property="Label.RichText" Value="Radius:" Target="29f8f6c8-32be-40ff-b865-709c8fa04e81" />
+                                        <Resize To="30,30" Target="e13fe669-5de2-40c8-b852-edd2501a0e98" />
+                                        <Remove Target="c7c44de7-46cb-445f-91dc-e4b8d57fd7a4" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

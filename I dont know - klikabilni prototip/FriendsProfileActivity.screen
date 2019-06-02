@@ -1,0 +1,105 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="c48d88d5-9423-4672-89d6-9ada00e0e169">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="cdc87fd4-c359-4eb8-94e0-0bec13376d26">
+            <Content.Layers>
+                <Layer Id="2919f641-3239-482e-921e-960853b1f5e9" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="6a0fe834-fc76-453b-bf83-c0bea8b89822" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="413abb33-bcd9-4d6b-85be-1756d8d2e7a0" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="b460b695-7f54-4e20-9bdd-f305b80d7da3" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="06/01/2019 20:50:39" Id="a2b5e8fc-ab3e-429e-a6fd-fa9acaa63356">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c4b06adb-fbd2-431a-bfe0-81445cb10677">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Label RichText="Nickname" FontFamily="Open Sans" Id="84413afd-73bd-41df-87a6-f22a193fe118" Panel.Bounds="60,262,61{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Label RichText="Name" FontFamily="Open Sans" Id="6d5441e7-ba9f-4dce-b47e-42ce2411e201" Panel.Bounds="60,307,37{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Label RichText="Surname" FontFamily="Open Sans" Id="b7e431be-cb3e-4316-ae44-ae8e779b9f7c" Panel.Bounds="60,354,57{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Label RichText="Email" FontFamily="Open Sans" Id="291403c5-8e61-4ae4-b7ed-0458fc9caddb" Panel.Bounds="60,400,34{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Label RichText="Phone number" FontFamily="Open Sans" Id="c6d16ba4-a0b5-4719-b8a1-76d66c64a8bb" Panel.Bounds="60,446,92{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Label RichText="WayTooStrong" FontFamily="Open Sans" FontStyle="Bold" Id="f099f207-8eb3-432b-a6ac-2ba1ec69256b" Panel.Bounds="187,262,121{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Label RichText="Jovan" FontFamily="Open Sans" FontStyle="Bold" Id="f12abf95-95de-4da6-88e2-ed718c4b5225" Panel.Bounds="187,307,37{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Label RichText="Ristić" FontFamily="Open Sans" FontStyle="Bold" Id="36bf9379-f493-442c-af1d-952dea51d13a" Panel.Bounds="187,354,57{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Label RichText="jovan.ristic@gmail.com" FontFamily="Open Sans" FontStyle="Bold" Id="d2ae1218-149d-44ae-a037-c256e4bacc0b" Panel.Bounds="187,400,163{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Label RichText="0657654321" FontFamily="Open Sans" FontStyle="Bold" Id="03cd51b2-a68c-4da0-8edb-1623550fdf11" Panel.Bounds="187,446,92{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" Foreground="#FF00574B" FontFamily="Open Sans" Id="06c4b7aa-953d-4329-9d0c-404757edbe10" Name="BackToMain" Panel.Bounds="21,631,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/MainActivity.screen" Created="06/01/2019 23:45:17" Id="4e14ac8e-143d-4993-b7a1-07885faa26cb">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Icon CatalogId="iOS 7 Contacts" Id="4535a867-ea95-4768-8f0a-0a20bf56551c" Panel.Bounds="112,24,187,187" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="2919f641-3239-482e-921e-960853b1f5e9">
+                            <Add.Item>
+                                <Image SourcePath="assets/666.jpg" Crop="Size:[217,217],Rect:[37,0,140,140],Shape:[Ellipse]" Id="982618d7-118e-4174-9b65-4634a3c5ccbf" Panel.Bounds="130,40,158{5,2147483647},162{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

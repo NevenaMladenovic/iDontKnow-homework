@@ -1,0 +1,46 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="fdb78bd9-4930-454f-810a-b11913850fb4" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="416" Height="462" Background="#00FFFFFF" Id="710c9bcb-9725-4483-a5a2-d5aa63e9858f">
+            <BorderedContent.Layers>
+                <Layer Id="0a565f7d-71b4-42f6-9704-7a71c49b087c" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="fd88b48d-753a-417f-b6d6-8f2c32c6f8d5" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="59c0a33c-bdfd-40da-aef4-798ab05c3cb6" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="6fbd34d7-d4eb-47e7-9a43-371a8e956038" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="05/29/2019 11:51:39" Id="10672920-c36c-46cb-8969-90ea683eed1e">
+            <Scene.KeyFrames>
+                <KeyFrame Id="6adc56a3-da5e-498a-a0e8-660fea103c0e">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="0a565f7d-71b4-42f6-9704-7a71c49b087c">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/List.screenpart" Id="10b87835-554f-4e0f-b14b-015548e4be5f" Panel.Bounds="0,0,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Set Property="Label.RichText" Value="Komuna Gastro Bar" Target="82ccb892-bdd9-4733-b5bf-4d443d340db5.0f84b128-de34-4a93-bbc7-59089af0be31" />
+                                        <Remove Target="3d53b5e8-4597-49f5-a2f5-bd9dfc158470" />
+                                        <Remove Target="e23b8e7c-5cc3-43fe-8672-6af13a0c101b" />
+                                        <Remove Target="8e08196a-e8e1-4efd-ab9e-56b013ebd21f" />
+                                        <Remove Target="f5ef935a-f758-472c-a78f-45992f8eb1b8" />
+                                        <Remove Target="b0c740d9-0595-42bc-bc1e-3adcf9f00007" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

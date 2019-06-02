@@ -1,0 +1,97 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                Id="fcac1de8-f741-4fa4-8fa2-1d2cb317c287">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="39066d33-45c0-403e-96dc-27ba1124322b">
+            <Content.Layers>
+                <Layer Id="8c027ee3-2c90-4023-92c5-4800c61c019d" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="f6ceeadf-0e34-404c-b443-6715669e0981" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="bb5092cd-e7fa-459b-ac9f-f506d6fffe5d" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="14e9ff9e-80ab-4b46-8826-4664e64dbc76" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/27/2019 20:58:31" Id="d4685577-cf1a-4b3c-80c4-265d20ca6c61">
+            <Scene.KeyFrames>
+                <KeyFrame Id="bf24d1d5-0697-45d3-8135-83a9c2419bf2">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="8c027ee3-2c90-4023-92c5-4800c61c019d">
+                            <Add.Item>
+                                <Image SourcePath="assets/logo2.png" Id="aa2c9024-eb21-4d3a-baa8-5a378da5b923" Panel.Bounds="68,0,276{5,2147483647},192{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8c027ee3-2c90-4023-92c5-4800c61c019d">
+                            <Add.Item>
+                                <TextBox WatermarkText="Name" FontFamily="Open Sans" Id="f885fed0-19ac-4f3e-8f86-871c57bac467" Panel.Bounds="78,260,264{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8c027ee3-2c90-4023-92c5-4800c61c019d">
+                            <Add.Item>
+                                <TextBox WatermarkText="Surname" FontFamily="Open Sans" Id="7102402e-7040-4525-b401-86a835bfc98f" Panel.Bounds="78,308,264{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8c027ee3-2c90-4023-92c5-4800c61c019d">
+                            <Add.Item>
+                                <TextBox WatermarkText="Email address" FontFamily="Open Sans" Id="7c3b5759-c30c-4514-be81-b3d1cb148caa" Panel.Bounds="78,356,264{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8c027ee3-2c90-4023-92c5-4800c61c019d">
+                            <Add.Item>
+                                <PasswordBox WatermarkText="New password" FontFamily="Open Sans" Id="fbdadba2-89da-47c2-a194-dca21a076019" Panel.Bounds="78,404,264{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8c027ee3-2c90-4023-92c5-4800c61c019d">
+                            <Add.Item>
+                                <PasswordBox WatermarkText="Confirm password" FontFamily="Open Sans" Id="892dabe2-8aaf-4920-8059-40c8a933f582" Panel.Bounds="78,452,264{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8c027ee3-2c90-4023-92c5-4800c61c019d">
+                            <Add.Item>
+                                <TextBox WatermarkText="Phone number" FontFamily="Open Sans" Id="49100921-49de-48f6-8684-bcc44e31df44" Panel.Bounds="78,500,264{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8c027ee3-2c90-4023-92c5-4800c61c019d">
+                            <Add.Item>
+                                <Button Text="Register" FontFamily="Open Sans" Id="d6287b5e-2ead-489f-9267-8ed7ad3f866a" Panel.Bounds="117,560,185{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/LoginActivity.screen" Created="05/29/2019 10:51:24" Id="e18c06c6-7886-427e-b648-bc4538b482de">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8c027ee3-2c90-4023-92c5-4800c61c019d">
+                            <Add.Item>
+                                <Link Text="Already have an account? Login!" FontFamily="Open Sans" FontStyle="Normal|Underline" Id="e5694343-1dee-43d0-ac54-e53ac1a81fc0" Panel.Bounds="111,620,5*{5,2147483647},5*{5,2147483647}">
+                                    <Link.Click>
+                                        <CommandNavigate Screen="/LoginActivity.screen" Created="05/27/2019 22:20:12" Id="b6e0fab8-1771-4f14-a378-7b3187fbfcb3">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Link.Click>
+                                </Link>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8c027ee3-2c90-4023-92c5-4800c61c019d">
+                            <Add.Item>
+                                <TextBox WatermarkText="Nickname" FontFamily="Open Sans" Id="8ac71b20-1561-47d3-b978-ea9ceefefa19" Panel.Bounds="78,212,264{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

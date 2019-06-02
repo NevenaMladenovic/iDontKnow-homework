@@ -1,0 +1,47 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                     Id="2cb75ab0-f34a-4b7b-b355-6db60452b181" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="351" Height="361" Background="#00FFFFFF" Id="a01e4b62-f7e5-47d9-a0a0-d827e9982746">
+            <BorderedContent.Layers>
+                <Layer Id="d38f2e11-e202-44d8-854e-c7a8a5fdc3eb" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="2e3c42d5-ddf8-4102-bc31-35527e86c9db" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="3f315c6b-ca93-4928-9f77-ae3746955c17" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="baadf3fa-d21a-49ef-bec0-08630603a09e" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="06/01/2019 15:20:58" Id="4e76412a-887a-4646-bd6e-c8b3b5fa961d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="87499e62-ba6c-42b7-95fc-397a72bf772b">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="d38f2e11-e202-44d8-854e-c7a8a5fdc3eb">
+                            <Add.Item>
+                                <ContainerBox Id="2757582d-26ff-47c8-99ed-bc21efe37422" Panel.Bounds="0,0,351{5,2147483647},361{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="63d46dfb-627e-4e74-be3c-1bfad16b945a" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="d38f2e11-e202-44d8-854e-c7a8a5fdc3eb">
+                            <Add.Item>
+                                <i:Header Text="Header" FontSize="16" FontFamily="Open Sans" Id="a70ebc5a-2ea0-4509-afa4-5ccc71c0ab1b" Panel.Bounds="0,0,351{5,2147483647},45{20,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

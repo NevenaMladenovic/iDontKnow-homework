@@ -1,0 +1,72 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="130cd848-e6bd-46d4-88c3-68df828d6a7a" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="30" Height="341" Background="#00FFFFFF" Id="59e9385f-e5f8-488d-83c5-5a39fb17cad8">
+            <BorderedContent.Layers>
+                <Layer Id="f4ac4ffa-631f-47f9-a720-a7b13bd8b51c" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="218f6bed-adc8-4dc6-a0eb-b53fe690e428" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="5b6e39cb-37b5-459c-beb9-a9e948486403" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="ee7955cc-f5b6-484b-bf39-b789f54405ee" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="05/28/2019 02:47:46" Id="2c0cda28-1b42-4803-8515-b7b3a91c143b">
+            <Scene.KeyFrames>
+                <KeyFrame Id="08a3b1a6-29cf-4d7f-9473-530278a45e15">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="f4ac4ffa-631f-47f9-a720-a7b13bd8b51c">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideMenu closed.screenpart" Id="cb6bdbbd-a501-4f5e-9b74-3d56c8b404cc" Panel.Bounds="0,134,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Set Property="BorderedContent.BorderColor" Value="#00FFFFFF" Target="1ba3fa4b-e637-410d-b3fc-7275881c19bf" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="f4ac4ffa-631f-47f9-a720-a7b13bd8b51c">
+                            <Add.Item>
+                                <Polyline Thickness="1" IsClosed="True" Color="#00FFFFFF" Id="26813df0-bfb6-4798-b8b4-b6221c90258a" Panel.Bounds="0,0,5{1,2147483647},341{1,2147483647}">
+                                    <Polyline.StartPoint>
+                                        <Point Id="c4323e00-33b0-4dbf-80a8-cf4d0db2d5ae" />
+                                    </Polyline.StartPoint>
+                                    <Polyline.Segments>
+                                        <Segment Id="06a6e56c-5eff-4796-a22e-33befea015c0">
+                                            <Segment.EndPoint>
+                                                <Point X="8" Y="2" Id="23c0168a-8bb3-4f82-903c-83751037cece" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="45cfbe14-32a3-41b9-9010-ce586c2bf1d9">
+                                            <Segment.EndPoint>
+                                                <Point X="8" Y="198" Id="a7b2e18c-1566-4c2d-8862-f4f5c36e414d" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="7a4d9d3d-2bc2-4dc5-97ee-51b665b65755">
+                                            <Segment.EndPoint>
+                                                <Point X="1" Y="205" Id="e5917c2c-ba42-4b32-999b-36cc39d4fadc" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="7eb84e00-826e-4b47-bb36-e7f54e0457af">
+                                            <Segment.EndPoint>
+                                                <Point Id="5396b13e-c053-4cde-8fd7-fe9c0099d1e9" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Polyline.Segments>
+                                </Polyline>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

@@ -1,0 +1,91 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="71800628-44b0-43ae-be4c-c3db1e1aa081">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="6f60649f-bfc3-428b-bc2a-b378cca99bc1">
+            <Content.Layers>
+                <Layer Id="ce4bb296-3f5e-441e-9871-4401cf6153b0" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="88bdbda5-4cba-41c6-81e2-a8cc99273f62" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="6550be7a-cb46-4c19-8f0a-5dd8a56bd303" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="609d8c38-648d-41a0-b5df-f485239d1569" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/28/2019 00:16:59" Id="d5438a4a-7668-464a-8e28-dab798676d54">
+            <Scene.KeyFrames>
+                <KeyFrame Id="c4eae47e-e283-486c-a5c8-ccba0846be15">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="ce4bb296-3f5e-441e-9871-4401cf6153b0">
+                            <Add.Item>
+                                <Image SourcePath="assets/pizza.jpg" Id="7d41e673-8fe3-416c-a1a1-ff7011bb66ef" Name="PizzaNo" Panel.Bounds="0,66,412,276">
+                                    <Image.SwipeLeft>
+                                        <CommandSwitchTo SceneId="817b11ba-8133-4aaf-8246-e3fc7cd1fe81" Created="06/02/2019 12:00:34" Id="fa1c7dd7-ebdf-4d7a-8e66-1e5f1af1aa30" />
+                                    </Image.SwipeLeft>
+                                    <Image.SwipeRight>
+                                        <CommandSwitchTo SceneId="817b11ba-8133-4aaf-8246-e3fc7cd1fe81" Created="06/02/2019 11:58:45" Id="c29ebb4e-2965-4896-a336-2de058feb326" />
+                                    </Image.SwipeRight>
+                                </Image>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ce4bb296-3f5e-441e-9871-4401cf6153b0">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="114943ab-2eb6-46e3-a8e3-1ab27f9cdab4" Panel.Bounds="263,450,0*,0*">
+                                    <Group.Children>
+                                        <Ellipse Thickness="0" Background="#FFFDE8D6" Id="fd7d6379-5310-4f2d-b7c8-355d71c9d835" Panel.Bounds="0,0,215{5,2147483647},125{5,2147483647}" />
+                                        <Image SourcePath="assets/yeah.png" Id="038a1729-681f-4526-8c21-fb439711dcd1" Panel.Bounds="25,23,119{5,2147483647},79{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ce4bb296-3f5e-441e-9871-4401cf6153b0">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="5f50b0fe-fd97-4c67-982e-2183fc81f581" Name="PizzaNo" Panel.Bounds="-66,450,0*,0*">
+                                    <Group.Children>
+                                        <Ellipse Thickness="0" Background="#FFFDE8D6" Id="70185e02-595b-4729-bd3d-be32d50bb56a" Panel.Bounds="0,0,215{5,2147483647},125{5,2147483647}" />
+                                        <Image SourcePath="assets/no.png" Id="c22554e1-96b5-4ac5-a27a-d06a6eac8a01" Panel.Bounds="66,23,125{5,2147483647},78{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ce4bb296-3f5e-441e-9871-4401cf6153b0">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;14&quot; FontFamily=&quot;Roboto Condensed&quot; &gt;Swipe left or right&lt;/Run&gt;" FontFamily="Roboto" Opacity="0.4" Id="d4d49dba-8aba-41b0-bd84-b8d1e0158a1e" Panel.Bounds="159,588,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ce4bb296-3f5e-441e-9871-4401cf6153b0">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" Foreground="#FF00574B" FontFamily="Open Sans" Id="27eed9ae-1e9b-4bdb-9df3-21269386a0f0" Name="BackToMain" Panel.Bounds="25,633,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/MainActivity.screen" Created="06/02/2019 12:01:23" Id="80e4386d-0d38-419d-ab9b-2e2c91cf5671">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Swiped right over PizzaNo" StateGroup="d5438a4a-7668-464a-8e28-dab798676d54" ParentScene="d5438a4a-7668-464a-8e28-dab798676d54" Created="06/02/2019 11:58:45" Id="817b11ba-8133-4aaf-8246-e3fc7cd1fe81">
+            <Scene.KeyFrames>
+                <KeyFrame Id="385dd0eb-af36-423d-a57e-c328232ade4c">
+                    <KeyFrame.Operations>
+                        <Set Property="Image.SourcePath" Value="assets/beer.jpeg" Target="7d41e673-8fe3-416c-a1a1-ff7011bb66ef" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

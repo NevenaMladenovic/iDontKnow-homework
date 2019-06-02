@@ -1,0 +1,570 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                xmlns:i2="http://prototypes.infragistics.com/ios/"
+                                                                                Id="10cc7c18-c0d0-44ca-bc22-a54c09502eff">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="44da335c-3f18-4d87-b0a0-5568a674963c">
+            <Content.Layers>
+                <Layer Id="7e67b7fd-d5d3-4926-952f-aac51bf08af1" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="fbeb94ac-7c20-42d2-9741-941a2aab860f" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="5df248af-5363-4084-9cc5-bd887edf6c5b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="08fe4a68-a936-4c1c-bbc8-3691512d8329" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/27/2019 22:38:15" Id="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="400" Id="e696f152-edf4-4db4-ae92-5f4634f03982">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="7e67b7fd-d5d3-4926-952f-aac51bf08af1">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="035f7316-be79-4e98-b127-b88bf0925dbd" Panel.Bounds="7,1,0*,0*">
+                                    <Group.Children>
+                                        <i:Header Background="#00FFFFFF" FontSize="16" FontFamily="Open Sans" Id="dfa488cc-c9fd-4f58-a200-c6b9f4ce7f49" Panel.Bounds="-8,0,412{5,2147483647},72{20,2147483647}" />
+                                        <Image SourcePath="assets/quiz.png" Id="d55c4314-f377-4b05-b5b1-78539fca9bbe" Panel.Bounds="139,-1,119{5,2147483647},72{5,2147483647}">
+                                            <Image.Click>
+                                                <CommandNavigate Screen="/QuizActivity.screen" Created="05/29/2019 12:55:57" Id="84c68851-5abf-4e60-928a-1731334bece7">
+                                                    <CommandNavigate.Transition>
+                                                        <NavigateTransition Duration="0" />
+                                                    </CommandNavigate.Transition>
+                                                </CommandNavigate>
+                                            </Image.Click>
+                                        </Image>
+                                        <Icon CatalogId="iOS 7 Contacts" Id="eff2f66f-ba77-427e-bbf4-af1850815e28" Panel.Bounds="-2,-1,73,73" />
+                                        <Image SourcePath="assets/15863 – kopija – kopija.jpg" Crop="Size:[72,70],Rect:[0,0,70,70],Shape:[Ellipse]" Id="c3423fbf-8874-411f-9d6a-ce14351afce0" Panel.Bounds="4,5,63{5,2147483647},65{5,2147483647}" />
+                                    </Group.Children>
+                                    <Group.Click>
+                                        <CommandNavigate Screen="/ProfileActivity.screen" Created="05/28/2019 03:07:00" Id="dc0aa1f3-72fe-43e0-9e58-379b5b57d418">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Group.Click>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="GuidesInfo.Guides" Target="08fe4a68-a936-4c1c-bbc8-3691512d8329">
+                            <Add.Item>
+                                <Guide Position="72" Orientation="Horizontal" Id="8ccf5d3a-bfe7-45ce-9b5e-36ea1236e8f5" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="7e67b7fd-d5d3-4926-952f-aac51bf08af1">
+                            <Add.Item>
+                                <i:TabBar Tooltip="&lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11611.04286067083!2d21.886280936811698!3d43.31926831232549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b0b3ec7cb9a7%3A0xf513b5a4e0503ea7!2z0KbQtdC90YLQsNGALCDQndC40Yg!5e0!3m2!1ssr!2srs!4v1559134828372!5m2!1ssr!2srs&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen&gt;&lt;/iframe&gt;" Id="ad74b342-a09f-4cfc-8880-5ddd32d03270" Panel.Bounds="0,72,416{130,2147483647},618{70,2147483647}">
+                                    <i:TabBar.Items>
+                                        <i:TabBarItem Header="List" IsSelected="True" Id="7c638bef-a33d-4bfb-8571-98ddb99d80dc">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="linea-hamburger1" Id="ba5b62e8-b020-477b-95ae-76ef485215ab" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="05243a72-9509-427c-99e6-eb60eca5a384">
+                                                    <Container.Children>
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/List.screenpart" Id="3e5ec3a4-4f84-47f1-bafa-3babc31562cb" Panel.Bounds="0,66,416*{5,2147483647},503{5,2147483647}">
+                                                            <ScreenPartInstance.Customizations>
+                                                                <Add Property="Control.Click" Target="cf40a3e5-7e06-4622-8edb-6df4e25cfbda">
+                                                                    <Add.Item>
+                                                                        <CommandNavigate Screen="/PlaceActivity1.screen" Created="06/01/2019 23:15:40" Id="55300a50-7fc1-40ad-8c06-bca9ee996fc9">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Add.Item>
+                                                                </Add>
+                                                                <Add Property="Control.Click" Target="3d53b5e8-4597-49f5-a2f5-bd9dfc158470">
+                                                                    <Add.Item>
+                                                                        <CommandNavigate Screen="/PlaceActivity.screen" Created="06/02/2019 12:07:14" Id="0f5f6730-93dc-4c50-86e7-7aec995ebe3c">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Add.Item>
+                                                                </Add>
+                                                                <Add Property="Control.Click" Target="e23b8e7c-5cc3-43fe-8672-6af13a0c101b">
+                                                                    <Add.Item>
+                                                                        <CommandNavigate Screen="/PlaceActivity.screen" Created="06/02/2019 12:07:36" Id="e29ef174-d1de-4c1d-9036-e89efb4ea48d">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Add.Item>
+                                                                </Add>
+                                                                <Add Property="Control.Click" Target="8e08196a-e8e1-4efd-ab9e-56b013ebd21f">
+                                                                    <Add.Item>
+                                                                        <CommandNavigate Screen="/PlaceActivity.screen" Created="06/02/2019 12:07:45" Id="09718f3e-46d0-4b65-850e-ca95044fdfc1">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Add.Item>
+                                                                </Add>
+                                                                <Add Property="Control.Click" Target="783e1b2a-60ca-4b0c-8bd2-813f4521f943">
+                                                                    <Add.Item>
+                                                                        <CommandNavigate Screen="/PlaceActivity.screen" Created="06/02/2019 12:07:55" Id="6742475c-e503-4bc7-b18b-3da147372e59">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Add.Item>
+                                                                </Add>
+                                                                <Add Property="Control.Click" Target="f5ef935a-f758-472c-a78f-45992f8eb1b8">
+                                                                    <Add.Item>
+                                                                        <CommandNavigate Screen="/PlaceActivity.screen" Created="06/02/2019 12:08:11" Id="7d3aa956-afd8-4374-92b5-0d4ad0fde56d">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Add.Item>
+                                                                </Add>
+                                                                <Add Property="Control.Click" Target="b0c740d9-0595-42bc-bc1e-3adcf9f00007">
+                                                                    <Add.Item>
+                                                                        <CommandNavigate Screen="/PlaceActivity.screen" Created="06/02/2019 12:08:20" Id="469f021a-22d3-41ac-8d34-2f2f37a78e9e">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Add.Item>
+                                                                </Add>
+                                                                <Resize To="416,497" Target="38ae32d9-c12a-4c82-9c06-db0eabdf75c2" />
+                                                                <Set Property="ViewElement.Name" Value="Komuna" Target="cf40a3e5-7e06-4622-8edb-6df4e25cfbda" />
+                                                                <Set Property="ViewElement.Name" Value="PlaceActivity" Target="3d53b5e8-4597-49f5-a2f5-bd9dfc158470" />
+                                                                <Set Property="ViewElement.Name" Value="Place" Target="e23b8e7c-5cc3-43fe-8672-6af13a0c101b" />
+                                                            </ScreenPartInstance.Customizations>
+                                                        </ScreenPartInstance>
+                                                        <i:SearchBar WatermarkText="Search" FontFamily="Open Sans" Id="654fabb7-1247-4cd1-a57a-7ae083a2a3ee" Panel.Bounds="111,23,199{105,2147483647},5*{5,2147483647}" />
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/SideMenuClosed.screenpart" Id="a5846992-6701-4def-bf71-283180464dd9" Name="SideMenuOpen" Panel.Bounds="0,170,5*{5,2147483647},5*{5,2147483647}">
+                                                            <ScreenPartInstance.Click>
+                                                                <CommandSwitchTo SceneId="e30ca584-f526-466c-afda-9198a483e53e" AutoRevertEvent="Control.Click" Created="06/01/2019 21:59:00" Id="675f1e1e-0691-4180-ab63-831da1012cc4" />
+                                                            </ScreenPartInstance.Click>
+                                                        </ScreenPartInstance>
+                                                    </Container.Children>
+                                                </Container>
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Map" Id="1ce0c4af-a465-45dc-91c0-fb8f2aecf162">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="Pin" Id="743207c0-07f5-4d86-b6aa-8d07a9ea1245" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="8d3fb75d-eaba-4728-801b-76ef36de433b">
+                                                    <Container.Children>
+                                                        <MapMock EmbedCode="&lt;iframe src=&quot;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11611.04286067083!2d21.886280936811698!3d43.31926831232549!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4755b0b3ec7cb9a7%3A0xf513b5a4e0503ea7!2z0KbQtdC90YLQsNGALCDQndC40Yg!5e0!3m2!1ssr!2srs!4v1559134828372!5m2!1ssr!2srs&quot; width=&quot;600&quot; height=&quot;450&quot; frameborder=&quot;0&quot; style=&quot;border:0&quot; allowfullscreen&gt;&lt;/iframe&gt;" MockType="Street Map" Id="6946eadf-b406-47d5-b14a-9c46b9dce16e" Panel.Bounds="-1,67,416{5,2147483647},501{5,2147483647}" />
+                                                        <i:SearchBar WatermarkText="Search" FontFamily="Open Sans" Id="0068b393-c6bb-45d5-9463-b2e97b2e5e01" Panel.Bounds="113,21,199{105,2147483647},5*{5,2147483647}" />
+                                                        <Group GroupName="Group" Id="3f207e5d-3da0-409a-9719-24909f55fe2e" Panel.Bounds="350,13,0*,0*">
+                                                            <Group.Children>
+                                                                <Icon CatalogId="fa-street-view" Id="80137454-5b5c-4e69-a851-915e267469d9" Panel.Bounds="24,14,25{5,2147483647},25{5,2147483647}" />
+                                                                <Icon CatalogId="linea-geolocalize-05" Id="f1f4ed65-3b05-44fc-b655-ca91c316dacb" Panel.Bounds="0,0,44{5,2147483647},44{5,2147483647}" />
+                                                            </Group.Children>
+                                                        </Group>
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/SideMenuClosed.screenpart" Id="df242a9a-4653-4a43-923b-c732fc03a465" Name="SideMenuOpen2" Panel.Bounds="0,170,0*{5,2147483647},341{5,2147483647}">
+                                                            <ScreenPartInstance.Click>
+                                                                <CommandSwitchTo SceneId="3b6d4bb2-1863-4aa6-ac2c-31b92cf25182" Created="06/01/2019 23:53:40" Id="04493149-9a8f-4930-8330-50349a206617" />
+                                                            </ScreenPartInstance.Click>
+                                                        </ScreenPartInstance>
+                                                    </Container.Children>
+                                                </Container>
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Friends" Id="9345a87a-f653-4de8-88e7-35148a1a1ea6" Name="TabFriends">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="fa-users" Id="cffd445d-25fc-402d-909d-c5bc8938bb58" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="6de7f66c-8f02-4553-8751-4597bdcc6a33">
+                                                    <Container.Children>
+                                                        <Icon CatalogId="fa-user-plus" Id="16a6a368-3bfe-477c-bd2b-c28d58dd17aa" Name="AddFriends" Panel.Bounds="190,17,32{5,2147483647},32{5,2147483647}">
+                                                            <Icon.Click>
+                                                                <CommandSwitchTo SceneId="e2fe88cb-ad43-437d-a5d0-5d11bafdd14e" Created="06/02/2019 00:15:30" Id="bb18f2d6-7daa-453e-b393-92afc7f03291" />
+                                                            </Icon.Click>
+                                                        </Icon>
+                                                        <Icon CatalogId="fa-bluetooth-b" Id="659a8d1e-3ec0-44bf-8257-e779e43f7aef" Panel.Bounds="302,18,32{5,2147483647},32{5,2147483647}" />
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/ListOfFriends.screenpart" Id="e4114eaa-29bd-4a71-b2a3-ccf0b3a57649" Panel.Bounds="0,59,416*{5,2147483647},510{5,2147483647}">
+                                                            <ScreenPartInstance.Customizations>
+                                                                <Add Property="Control.Click" Target="aba0347a-5058-4f6a-a45b-6e51ba562d03">
+                                                                    <Add.Item>
+                                                                        <CommandNavigate Screen="/FriendsProfileActivity.screen" Created="06/02/2019 00:20:14" Id="82022626-fd6c-4f0e-bae6-d13963f666a6">
+                                                                            <CommandNavigate.Transition>
+                                                                                <NavigateTransition Duration="0" />
+                                                                            </CommandNavigate.Transition>
+                                                                        </CommandNavigate>
+                                                                    </Add.Item>
+                                                                </Add>
+                                                                <Set Property="ViewElement.Name" Value="UserProfile" Target="aba0347a-5058-4f6a-a45b-6e51ba562d03" />
+                                                            </ScreenPartInstance.Customizations>
+                                                        </ScreenPartInstance>
+                                                        <i:Switch On="False" Id="c82b2768-2c29-4701-b921-529e52ccfd5d" Panel.Bounds="338,18,5*{5,2147483647},5*{5,2147483647}">
+                                                            <i:Switch.TurnOn>
+                                                                <CommandSwitchTo SceneId="79ae93aa-c91c-453f-a58e-ac041a84e0b9" AutoRevertEvent="i:Switch.TurnOff" Created="06/01/2019 15:38:03" Id="66a2e406-ff5b-4e63-a6ab-7001688b955d" />
+                                                            </i:Switch.TurnOn>
+                                                        </i:Switch>
+                                                    </Container.Children>
+                                                </Container>
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                        <i:TabBarItem Header="Rank" Id="4bbfe6cd-bf29-42a4-9dc8-f7ed6e92486d">
+                                            <i:TabBarItem.Icon>
+                                                <Icon CatalogId="fa-list-ol" Id="0eaa2026-b9ee-4845-88f6-102d82edb512" />
+                                            </i:TabBarItem.Icon>
+                                            <i:TabBarItem.Content>
+                                                <Container ClipToContainer="True" Id="a20bc8a0-354e-4073-9b48-822f856f4bae">
+                                                    <Container.Children>
+                                                        <ScreenPartInstance TemplateReference="/Screenparts/RankList.screenpart" Id="191c0d8b-4cf6-4f47-b5d5-563ff61e00cc" Panel.Bounds="0,66,416*{5,2147483647},503{5,2147483647}" />
+                                                        <Rectangle Thickness="4" CornerRadius="1" Color="#FFF68324" Background="#AAE2E2E2" Opacity="0.4" Id="b14f844e-8b92-439b-958d-59ae7f16d841" Panel.Bounds="2,66,414{5,2147483647},72{5,2147483647}" />
+                                                        <Title RichText="&lt;Run FontSize=&quot;24&quot; &gt;Rank list&lt;/Run&gt;" FontFamily="Roboto" FontStyle="Normal" Id="8500d965-25b6-41f9-a968-a78f825b47b4" Panel.Bounds="160,19,5*{5,2147483647},5*{5,2147483647}" />
+                                                    </Container.Children>
+                                                </Container>
+                                            </i:TabBarItem.Content>
+                                        </i:TabBarItem>
+                                    </i:TabBar.Items>
+                                </i:TabBar>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="GuidesInfo.Guides" Target="08fe4a68-a936-4c1c-bbc8-3691512d8329">
+                            <Add.Item>
+                                <Guide Position="-50" Id="b047939c-0907-4df9-bc21-f5205ed8000d" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped SideMenuOpen" ParentScene="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" Created="05/29/2019 12:08:45" Id="e30ca584-f526-466c-afda-9198a483e53e">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="400" Id="cc7c9ba1-a6d1-488e-8500-b71e8f574ed6">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="05243a72-9509-427c-99e6-eb60eca5a384">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideMenu open.screenpart" Id="097f2100-48da-4ea0-8987-59197b466846" Name="SideMenu closed" Panel.Bounds="0,170,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="05ac24c3-0b90-4e1d-8070-a09132b140a5" AutoRevertEvent="Control.Click" Created="05/31/2019 10:30:51" Id="af6ceb8d-f3c2-4c3c-ae9d-7e80cb13fd6a" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="6a9f8071-abd1-448e-bfdb-3191c232342e">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="411b258e-1c29-463c-82ea-b05a3b03876f" AutoRevertEvent="Control.Click" Created="05/31/2019 10:34:09" Id="017ef14c-9382-412e-a35e-e800ec2370da" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="ed35298b-fbb4-42f8-91c7-18629ed70e90" AutoRevertEvent="Control.Click" Created="05/31/2019 10:42:28" Id="cea20cc3-d446-4314-9fde-08b1176890be" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="a8d295ea-fe70-4d5a-bb04-762ccd87212f" AutoRevertEvent="Control.Click" Created="05/31/2019 10:38:10" Id="49ce9b86-3b50-4ffe-95f6-662359828181" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Add Property="Control.Click" Target="545b2730-c162-4e6d-99ef-fd076e63c60c">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="eda408b1-d667-4af2-b8d6-c340bf6cfda5" AutoRevertEvent="Control.Click" Created="05/31/2019 10:39:40" Id="215c7c59-455c-49ba-bd53-90926460df3a" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Move To="0,0" At="229ab310-e45e-4946-9075-8fe1f3c62587" Top="True" Target="4e7883d9-5d00-43c4-8540-504278bd7325" />
+                                        <Move To="14,26" At="229ab310-e45e-4946-9075-8fe1f3c62587" Top="True" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" />
+                                        <Set Property="ViewElement.Name" Value="CaffeeShopList" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" />
+                                        <Move To="14,71" At="229ab310-e45e-4946-9075-8fe1f3c62587" Top="True" Target="6a9f8071-abd1-448e-bfdb-3191c232342e" />
+                                        <Set Property="ViewElement.Name" Value="BeerhouseList" Target="6a9f8071-abd1-448e-bfdb-3191c232342e" />
+                                        <Move To="14,203" At="229ab310-e45e-4946-9075-8fe1f3c62587" Top="True" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" />
+                                        <Set Property="ViewElement.Name" Value="ConfectioneryList" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" />
+                                        <Move To="14,294" At="229ab310-e45e-4946-9075-8fe1f3c62587" Top="True" Target="f9a16605-042c-4513-8a91-5cdf2bb610ba" />
+                                        <Move To="14,116" At="229ab310-e45e-4946-9075-8fe1f3c62587" Top="True" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74" />
+                                        <Set Property="ViewElement.Name" Value="PizzeriaList" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74" />
+                                        <Move To="14,267" At="229ab310-e45e-4946-9075-8fe1f3c62587" Top="True" Target="1c74a0a3-0d4a-4560-9737-e2fe7313e614" />
+                                        <Move To="14,158" At="229ab310-e45e-4946-9075-8fe1f3c62587" Top="True" Target="545b2730-c162-4e6d-99ef-fd076e63c60c" />
+                                        <Set Property="ViewElement.Name" Value="GastroBarList" Target="545b2730-c162-4e6d-99ef-fd076e63c60c" />
+                                        <Move Top="True" Target="124e3223-eaef-4024-8c04-016839fc86fb" />
+                                        <Remove Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f" />
+                                    </ScreenPartInstance.Customizations>
+                                    <ScreenPartInstance.Click>
+                                        <CommandSwitchTo SceneId="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" AutoRevertDuration="0" Created="05/29/2019 12:10:19" Id="340bef67-b4f4-42ea-bd7e-c1e9b5fe6581" />
+                                    </ScreenPartInstance.Click>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Guide.Position" Value="138" Target="8ccf5d3a-bfe7-45ce-9b5e-36ea1236e8f5" />
+                        <Set Property="Guide.Position" Value="51" Target="b047939c-0907-4df9-bc21-f5205ed8000d" />
+                        <Set Property="ItemBase.IsSelected" Value="False" Target="7c638bef-a33d-4bfb-8571-98ddb99d80dc" />
+                        <Set Property="i2:Header.Background" Value="#FFFFFFFF" Target="dfa488cc-c9fd-4f58-a200-c6b9f4ce7f49" />
+                        <Set Property="Control.Opacity" Value="0.8" Target="dfa488cc-c9fd-4f58-a200-c6b9f4ce7f49" />
+                        <Set Property="ItemBase.IsSelected" Value="True" Target="9345a87a-f653-4de8-88e7-35148a1a1ea6" />
+                        <Remove Target="a5846992-6701-4def-bf71-283180464dd9" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped CaffeeShopList" ParentScene="e30ca584-f526-466c-afda-9198a483e53e" Created="05/31/2019 10:30:51" Id="05ac24c3-0b90-4e1d-8070-a09132b140a5">
+            <Scene.KeyFrames>
+                <KeyFrame Id="bfdba39f-bb0c-49eb-badd-1d2188bcbd69">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="3e5ec3a4-4f84-47f1-bafa-3babc31562cb.f2d6cda3-1988-4d45-8926-10b83eeeebfc">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/CaffeeShopList.screenpart" Id="544f2523-3ecd-425d-9ac1-361d10723ba6" Panel.Bounds="0,-8,416{5,2147483647},511{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Control.Click" Target="097f2100-48da-4ea0-8987-59197b466846.d07bc34c-a5db-45c0-ae41-ac0a9af45df7">
+                            <Add.Item>
+                                <CommandSwitchTo SceneId="e30ca584-f526-466c-afda-9198a483e53e" Created="06/02/2019 12:33:01" Id="f6e6516d-7943-4be5-ade5-a476f8798d80" />
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="3e5ec3a4-4f84-47f1-bafa-3babc31562cb.38ae32d9-c12a-4c82-9c06-db0eabdf75c2" />
+                        <Remove Target="097f2100-48da-4ea0-8987-59197b466846.af6ceb8d-f3c2-4c3c-ae9d-7e80cb13fd6a" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped BeerhouseList" ParentScene="e30ca584-f526-466c-afda-9198a483e53e" Created="05/31/2019 10:34:09" Id="411b258e-1c29-463c-82ea-b05a3b03876f">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f01acbf2-305e-4462-aca6-94fa7de3c4d5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="05243a72-9509-427c-99e6-eb60eca5a384">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/BeerhouseList.screenpart" Id="22ec09a2-5800-49ea-a56d-6054a3fb86ed" Panel.Bounds="0,66,418*{5,2147483647},503{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="05243a72-9509-427c-99e6-eb60eca5a384">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideMenu open.screenpart" Id="50a93e7e-2a48-44b4-a9a9-e57af35b543e" Name="SideMenu closed" Panel.Bounds="0,170,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="6a9f8071-abd1-448e-bfdb-3191c232342e">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="e30ca584-f526-466c-afda-9198a483e53e" Created="06/02/2019 12:33:56" Id="5657abc3-f2af-40b9-ad83-134e7e27afcb" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Move To="0,0" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="4e7883d9-5d00-43c4-8540-504278bd7325" />
+                                        <Move To="14,26" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" />
+                                        <Set Property="ViewElement.Name" Value="CaffeeShopList" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" />
+                                        <Move To="14,71" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="6a9f8071-abd1-448e-bfdb-3191c232342e" />
+                                        <Set Property="ViewElement.Name" Value="BeerhouseList" Target="6a9f8071-abd1-448e-bfdb-3191c232342e" />
+                                        <Move To="14,203" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" />
+                                        <Set Property="ViewElement.Name" Value="ConfectioneryList" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" />
+                                        <Move To="14,294" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="f9a16605-042c-4513-8a91-5cdf2bb610ba" />
+                                        <Move To="14,116" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74" />
+                                        <Set Property="ViewElement.Name" Value="PizzeriaList" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74" />
+                                        <Move To="14,267" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="1c74a0a3-0d4a-4560-9737-e2fe7313e614" />
+                                        <Move To="14,158" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="545b2730-c162-4e6d-99ef-fd076e63c60c" />
+                                        <Set Property="ViewElement.Name" Value="GastroBarList" Target="545b2730-c162-4e6d-99ef-fd076e63c60c" />
+                                        <Move Top="True" Target="124e3223-eaef-4024-8c04-016839fc86fb" />
+                                        <Remove Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="3e5ec3a4-4f84-47f1-bafa-3babc31562cb" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped PizzeriaList" ParentScene="e30ca584-f526-466c-afda-9198a483e53e" Created="05/31/2019 10:38:10" Id="a8d295ea-fe70-4d5a-bb04-762ccd87212f">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3787b057-9a4c-4730-b5f6-af2a62b75bf5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="05243a72-9509-427c-99e6-eb60eca5a384">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/PizzeriaList.screenpart" Id="828bdf3e-b52d-45d6-a1a0-9173b80377e4" Panel.Bounds="-5,66,420*{5,2147483647},503{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="05243a72-9509-427c-99e6-eb60eca5a384">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideMenu open.screenpart" Id="00af9022-679c-4a0e-bcda-04c5269bd36b" Name="SideMenu closed" Panel.Bounds="0,170,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="e30ca584-f526-466c-afda-9198a483e53e" Created="06/02/2019 12:34:24" Id="cffd7d60-804e-4198-8f2d-866a96d182b3" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Move To="0,0" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="4e7883d9-5d00-43c4-8540-504278bd7325" />
+                                        <Move To="14,26" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" />
+                                        <Set Property="ViewElement.Name" Value="CaffeeShopList" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" />
+                                        <Move To="14,71" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="6a9f8071-abd1-448e-bfdb-3191c232342e" />
+                                        <Set Property="ViewElement.Name" Value="BeerhouseList" Target="6a9f8071-abd1-448e-bfdb-3191c232342e" />
+                                        <Move To="14,203" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" />
+                                        <Set Property="ViewElement.Name" Value="ConfectioneryList" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" />
+                                        <Move To="14,294" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="f9a16605-042c-4513-8a91-5cdf2bb610ba" />
+                                        <Move To="14,116" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74" />
+                                        <Set Property="ViewElement.Name" Value="PizzeriaList" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74" />
+                                        <Move To="14,267" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="1c74a0a3-0d4a-4560-9737-e2fe7313e614" />
+                                        <Move To="14,158" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="545b2730-c162-4e6d-99ef-fd076e63c60c" />
+                                        <Set Property="ViewElement.Name" Value="GastroBarList" Target="545b2730-c162-4e6d-99ef-fd076e63c60c" />
+                                        <Move Top="True" Target="124e3223-eaef-4024-8c04-016839fc86fb" />
+                                        <Remove Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="3e5ec3a4-4f84-47f1-bafa-3babc31562cb" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped GastroBarList" ParentScene="e30ca584-f526-466c-afda-9198a483e53e" Created="05/31/2019 10:39:40" Id="eda408b1-d667-4af2-b8d6-c340bf6cfda5">
+            <Scene.KeyFrames>
+                <KeyFrame Id="d8f2fc52-032f-42fa-aeb7-0ae13a817833">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="05243a72-9509-427c-99e6-eb60eca5a384">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/GastroBarList.screenpart" Id="a2d9bba4-aebf-47e0-9b8b-c2c6cd018587" Panel.Bounds="0,66,416*{5,2147483647},503{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="05243a72-9509-427c-99e6-eb60eca5a384">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideMenu open.screenpart" Id="265f4765-2ffa-40cd-a251-d3db396ed8d0" Name="SideMenu closed" Panel.Bounds="0,170,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="545b2730-c162-4e6d-99ef-fd076e63c60c">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="e30ca584-f526-466c-afda-9198a483e53e" Created="06/02/2019 12:34:53" Id="e6fea108-3ede-4edb-a77b-7e0de55a8ecc" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Move To="0,0" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="4e7883d9-5d00-43c4-8540-504278bd7325" />
+                                        <Move To="14,26" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" />
+                                        <Set Property="ViewElement.Name" Value="CaffeeShopList" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" />
+                                        <Move To="14,71" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="6a9f8071-abd1-448e-bfdb-3191c232342e" />
+                                        <Set Property="ViewElement.Name" Value="BeerhouseList" Target="6a9f8071-abd1-448e-bfdb-3191c232342e" />
+                                        <Move To="14,203" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" />
+                                        <Set Property="ViewElement.Name" Value="ConfectioneryList" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" />
+                                        <Move To="14,294" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="f9a16605-042c-4513-8a91-5cdf2bb610ba" />
+                                        <Move To="14,116" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74" />
+                                        <Set Property="ViewElement.Name" Value="PizzeriaList" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74" />
+                                        <Move To="14,267" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="1c74a0a3-0d4a-4560-9737-e2fe7313e614" />
+                                        <Move To="14,158" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="545b2730-c162-4e6d-99ef-fd076e63c60c" />
+                                        <Set Property="ViewElement.Name" Value="GastroBarList" Target="545b2730-c162-4e6d-99ef-fd076e63c60c" />
+                                        <Move Top="True" Target="124e3223-eaef-4024-8c04-016839fc86fb" />
+                                        <Remove Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="3e5ec3a4-4f84-47f1-bafa-3babc31562cb" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped ConfectioneryList" ParentScene="e30ca584-f526-466c-afda-9198a483e53e" Created="05/31/2019 10:42:28" Id="ed35298b-fbb4-42f8-91c7-18629ed70e90">
+            <Scene.KeyFrames>
+                <KeyFrame Id="17031c67-2f7e-47e1-8f1b-7f4ceb43b041">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="05243a72-9509-427c-99e6-eb60eca5a384">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/ConfectioneryList.screenpart" Id="fc687951-a5d9-41c7-bcb4-b48e216b68c0" Panel.Bounds="0,66,416*{5,2147483647},503{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="05243a72-9509-427c-99e6-eb60eca5a384">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideMenu open.screenpart" Id="b4934413-d952-48d8-80f3-d08f3b576e95" Name="SideMenu closed" Panel.Bounds="0,170,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="e30ca584-f526-466c-afda-9198a483e53e" Created="06/02/2019 12:35:29" Id="e7630716-5129-418b-afef-3817fbe2d629" />
+                                            </Add.Item>
+                                        </Add>
+                                        <Move To="0,0" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="4e7883d9-5d00-43c4-8540-504278bd7325" />
+                                        <Move To="14,26" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" />
+                                        <Set Property="ViewElement.Name" Value="CaffeeShopList" Target="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" />
+                                        <Move To="14,71" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="6a9f8071-abd1-448e-bfdb-3191c232342e" />
+                                        <Set Property="ViewElement.Name" Value="BeerhouseList" Target="6a9f8071-abd1-448e-bfdb-3191c232342e" />
+                                        <Move To="14,203" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" />
+                                        <Set Property="ViewElement.Name" Value="ConfectioneryList" Target="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" />
+                                        <Move To="14,294" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="f9a16605-042c-4513-8a91-5cdf2bb610ba" />
+                                        <Move To="14,116" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74" />
+                                        <Set Property="ViewElement.Name" Value="PizzeriaList" Target="eb336bb3-1dd5-4b78-b638-0905f7798e74" />
+                                        <Move To="14,267" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="1c74a0a3-0d4a-4560-9737-e2fe7313e614" />
+                                        <Move To="14,158" At="229ab310-e45e-4946-9075-8fe1f3c62587" Target="545b2730-c162-4e6d-99ef-fd076e63c60c" />
+                                        <Set Property="ViewElement.Name" Value="GastroBarList" Target="545b2730-c162-4e6d-99ef-fd076e63c60c" />
+                                        <Move Top="True" Target="124e3223-eaef-4024-8c04-016839fc86fb" />
+                                        <Remove Target="d7d0ed7e-0833-4490-998b-a8afccc8b06f" />
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="3e5ec3a4-4f84-47f1-bafa-3babc31562cb" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Turned on Switch" ParentScene="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" Created="06/01/2019 15:38:03" Id="79ae93aa-c91c-453f-a58e-ac041a84e0b9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="a952765b-5df4-467c-875a-f898fc0cc71d">
+                    <KeyFrame.Operations>
+                        <Set Property="i2:Switch.On" Value="True" Target="c82b2768-2c29-4701-b921-529e52ccfd5d" />
+                        <Set Property="Icon.CatalogId" Value="fa-bluetooth" Target="659a8d1e-3ec0-44bf-8257-e779e43f7aef" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" ParentScene="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" Created="06/01/2019 22:06:33" Id="7fefa3ae-69dc-48a2-b24b-ae5f549a4f1d">
+            <Scene.KeyFrames>
+                <KeyFrame Id="1f44af41-7864-4e15-af53-14cd10cd60ac">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="8d3fb75d-eaba-4728-801b-76ef36de433b">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideMenu open.screenpart" Id="0c0ce45d-7c84-4607-9245-a1977c8b69f7" Name="SideMenuClosed2" Panel.Bounds="0,170,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Click>
+                                        <CommandSwitchTo SceneId="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" AutoRevertEvent="Control.Click" Created="06/01/2019 22:16:07" Id="e38121e1-51ed-4d38-a984-c61df26979f3" />
+                                    </ScreenPartInstance.Click>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="ItemBase.IsSelected" Value="False" Target="1ce0c4af-a465-45dc-91c0-fb8f2aecf162" />
+                        <Set Property="TabItem.Header" Value="Friends" Target="9345a87a-f653-4de8-88e7-35148a1a1ea6" />
+                        <Set Property="ItemBase.IsSelected" Value="False" Target="7c638bef-a33d-4bfb-8571-98ddb99d80dc" />
+                        <Set Property="ItemBase.IsSelected" Value="True" Target="9345a87a-f653-4de8-88e7-35148a1a1ea6" />
+                        <Remove Target="df242a9a-4653-4a43-923b-c732fc03a465" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped SideMenuOpen2" StateGroup="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" ParentScene="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" Created="06/01/2019 23:53:40" Id="3b6d4bb2-1863-4aa6-ac2c-31b92cf25182">
+            <Scene.KeyFrames>
+                <KeyFrame Id="9dd0cf93-5ed8-4b16-bc30-8dac05003c99">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="8d3fb75d-eaba-4728-801b-76ef36de433b">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/SideMenu open.screenpart" Id="3c99e0e5-ccf3-44c4-858b-411c51800145" Name="SideMenuOpen2" Panel.Bounds="0,170,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Click>
+                                        <CommandSwitchTo SceneId="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" Created="06/01/2019 23:55:00" Id="f82d30da-26f3-4731-a773-ae33280fd71d" />
+                                    </ScreenPartInstance.Click>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                        <Remove Target="df242a9a-4653-4a43-923b-c732fc03a465" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped AddFriends" StateGroup="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" ParentScene="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" Created="06/02/2019 00:15:30" Id="e2fe88cb-ad43-437d-a5d0-5d11bafdd14e">
+            <Scene.KeyFrames>
+                <KeyFrame Id="cfd0a12e-daf9-4283-a187-1bd8e8f8a3f5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="6de7f66c-8f02-4553-8751-4597bdcc6a33">
+                            <Add.Item>
+                                <Rectangle Background="#AAE2E2E2" Id="6e1917a0-a7ee-4f06-8e05-a5a8ecceda91" Panel.Bounds="0,-72,411{5,2147483647},689{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="6de7f66c-8f02-4553-8751-4597bdcc6a33">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/FriendRequest.screenpart" Id="fbc46c84-312f-491a-841e-63bad5f109ca" Panel.Bounds="39,69,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Customizations>
+                                        <Add Property="Control.Click" Target="98da3fe5-aaea-4a55-9d98-ca1b8bb9e2d5">
+                                            <Add.Item>
+                                                <CommandSwitchTo SceneId="2888c8ab-fdda-4dcc-b8f8-0541e8f22e7b" Created="06/02/2019 00:16:56" Id="1f8dc03b-9a70-4299-8ff4-6c6f1431b01a" />
+                                            </Add.Item>
+                                        </Add>
+                                    </ScreenPartInstance.Customizations>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

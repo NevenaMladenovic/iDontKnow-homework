@@ -1,0 +1,68 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     Id="fa131262-a69a-4410-b6bd-e49c79fec99d" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="32" Height="72" Background="#00FFFFFF" Id="1ba3fa4b-e637-410d-b3fc-7275881c19bf">
+            <BorderedContent.Layers>
+                <Layer Id="cbca156b-cca9-441c-a4f1-430ca99ba087" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="6c5a06dc-7620-47ae-aaed-019838657a29" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="be14f936-1342-4a65-8efc-af64a4c71dfe" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="e11a787a-baac-40c1-95a2-640e07ee95b1" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="05/28/2019 02:43:23" Id="8f7690de-6719-4b13-91a9-1dd1d7555efe">
+            <Scene.KeyFrames>
+                <KeyFrame Id="dc2b1e2a-ab2a-4307-9ca2-bf5a193c5818">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="cbca156b-cca9-441c-a4f1-430ca99ba087">
+                            <Add.Item>
+                                <Polyline Thickness="1" IsClosed="True" RotationAngle="1.9194148735767" Color="#00FFFFFF" Id="4e5eaafe-eec2-43a9-9a98-eb2d8285ffe1" Panel.Bounds="3,0,29,72">
+                                    <Polyline.StartPoint>
+                                        <Point X="-4" Y="35" Id="c1028324-1c74-4aeb-889e-3efb69b579fb" />
+                                    </Polyline.StartPoint>
+                                    <Polyline.Segments>
+                                        <Segment Id="0cf6a356-cc19-4ffa-89bd-880d312668b9">
+                                            <Segment.EndPoint>
+                                                <Point X="28" Y="14" Id="07ee73ce-787f-4ede-ac36-30825b4d2610" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="ac66cf8e-11ac-4a38-b96e-db31f2eb0f37">
+                                            <Segment.EndPoint>
+                                                <Point X="24" Y="-26" Id="3cfc4709-7b86-4351-9bf0-a252d5f5608f" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="3d444839-a61c-4d8b-b21f-ed7df6d95fb9">
+                                            <Segment.EndPoint>
+                                                <Point X="-3" Y="-33" Id="765ada13-6ab0-4e16-a82c-2f1c157c0429" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                        <Segment Id="4dac4b09-186c-4f51-85ca-d730401d1574">
+                                            <Segment.EndPoint>
+                                                <Point X="-4" Y="35" Id="58f75636-45c4-4cd0-a145-d7db8f021f21" />
+                                            </Segment.EndPoint>
+                                        </Segment>
+                                    </Polyline.Segments>
+                                </Polyline>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="cbca156b-cca9-441c-a4f1-430ca99ba087">
+                            <Add.Item>
+                                <Icon CatalogId="fa-angle-double-right" Id="8f8b2f96-ae8d-4cfe-921b-246d528c6a5a" Panel.Bounds="0,15,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

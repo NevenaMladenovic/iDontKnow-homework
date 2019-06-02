@@ -1,0 +1,162 @@
+﻿<?Infragistics.Models format="xaml" version="30" appVersion="12.0.0.8"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                Id="2ce432c6-db9c-4c1e-8443-f592a41ad45a">
+    <Page.Content>
+        <Content Width="412" Height="690" Id="f7a2574e-7b4a-4b01-9628-85c12297a237">
+            <Content.Layers>
+                <Layer Id="a48a1f01-368a-47f0-9057-f37166897e3e" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="71f4e542-a28a-483e-8175-25c617d49ee7" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="412,690" Id="0974691b-9699-4233-a7b8-bcc60769e034" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="e74a0ee1-4bd6-44f9-bee1-0dc70dfdec1e" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="05/27/2019 23:41:04" Id="1c152be5-cb30-4684-8d1b-0845d161e59c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="31b692f6-9aef-475b-a6a4-c5972c679078">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <TextBox Text="Nevena" WatermarkText="Name" FontFamily="Open Sans" Id="d676b258-69c6-4222-b985-4cad4ea973b1" Panel.Bounds="139,313,240{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <TextBox Text="Mladenović" WatermarkText="Surname" FontFamily="Open Sans" Id="7d000278-02f6-4a5e-b056-82ce5eae1e73" Panel.Bounds="139,360,240{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <TextBox Text="nevena.mladenovicc@gmail.com" FontFamily="Open Sans" Id="0da1b407-e3c3-4a7c-8e92-2f07ec6e0fc2" Panel.Bounds="139,406,240{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <TextBox Text="0601234567" FontFamily="Open Sans" Id="8b1a7f43-1ab7-4d99-9ab4-19eae1d0e8d3" Panel.Bounds="139,451,240{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <TextBox Text="NevenaM" WatermarkText="Name" FontFamily="Open Sans" Id="3e9e8b55-f462-49a9-85e4-19d71f3c84e7" Panel.Bounds="139,268,240{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Label RichText="Nickname" FontFamily="Open Sans" Id="6881b83b-cd29-4873-a14b-b4883abeaaac" Panel.Bounds="33,271,61{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Label RichText="Name" FontFamily="Open Sans" Id="63f971c5-bc62-4227-98bc-811272198914" Panel.Bounds="33,316,37{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Label RichText="Surname" FontFamily="Open Sans" Id="a445efb0-fa8c-4971-a163-3fd21fb18210" Panel.Bounds="33,363,57{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Label RichText="Email" FontFamily="Open Sans" Id="b2713b5c-9049-4f4e-adc8-0be3adf7a1cb" Panel.Bounds="33,409,34{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Label RichText="Phone number" FontFamily="Open Sans" Id="3778f527-8270-4f03-9a92-cb14237310cb" Panel.Bounds="33,455,92{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Button Text="Save changes" FontFamily="Open Sans" Id="9f64877d-ab9f-42d5-8687-807f1a4c5943" Panel.Bounds="144,535,124{5,2147483647},31{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/MainActivity.screen" Created="06/02/2019 11:16:14" Id="3f430ceb-ceb4-4ca6-853a-f5be68ce7f1c">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <i:NavigationButton Text="Back" Foreground="#FF00574B" FontFamily="Open Sans" Id="beeebc58-593e-457f-8bc9-b952275a1a1f" Name="BackToMain" Panel.Bounds="21,631,68{40,2147483647},5*{5,2147483647}">
+                                    <i:NavigationButton.Click>
+                                        <CommandNavigate Screen="/MainActivity.screen" Created="06/01/2019 23:45:49" Id="7aadc99e-bd09-4383-adf9-9e28e21c5bad">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </i:NavigationButton.Click>
+                                </i:NavigationButton>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Button Text="Logout" FontFamily="Open Sans" Id="2f00b8e3-326f-4343-954e-b0363ecf02ab" Panel.Bounds="277,11,124{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/LoginActivity.screen" Created="06/01/2019 23:59:37" Id="2088c63d-6dc3-4b80-85ec-979f59c9afc6">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Icon CatalogId="iOS 7 Contacts" Id="f00fff82-e735-4d57-9c91-f24b82e5d0cc" Panel.Bounds="112,34,187,187" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Image SourcePath="assets/15863 – kopija(2).jpg" Crop="Size:[244.9,251.1],Rect:[0,8,237,243],Shape:[Ellipse]" Id="c15dddad-2fb7-4cbb-983a-f7d8ae576bec" Panel.Bounds="130,50,158{5,2147483647},162{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Icon CatalogId="fa-plus-circle" Id="2594f670-a8ac-48dc-9637-ccce6f0ab044" Name="ChoosePic" Panel.Bounds="262,189,32{5,2147483647},32{5,2147483647}">
+                                    <Icon.Click>
+                                        <CommandSwitchTo SceneId="c59e62d2-f307-4e9c-9a32-6833805f296c" Created="06/02/2019 11:14:10" Id="78e320b2-7399-44d1-adb1-e7001ec6a049" />
+                                    </Icon.Click>
+                                </Icon>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped ChoosePic" StateGroup="1c152be5-cb30-4684-8d1b-0845d161e59c" ParentScene="1c152be5-cb30-4684-8d1b-0845d161e59c" Created="06/02/2019 11:14:10" Id="c59e62d2-f307-4e9c-9a32-6833805f296c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="3646e1f5-2527-4b5f-8eb6-4f15109c5169">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <Rectangle Background="#AAE2E2E2" Id="0b6f22ab-1036-4080-bb5b-b01921524e75" Panel.Bounds="0,0,411{5,2147483647},689{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="a48a1f01-368a-47f0-9057-f37166897e3e">
+                            <Add.Item>
+                                <ScreenPartInstance TemplateReference="/Screenparts/ChooseAPhoto.screenpart" Id="c8261576-2b66-4de4-84c2-345a85fb5120" Panel.Bounds="52,247,5*{5,2147483647},5*{5,2147483647}">
+                                    <ScreenPartInstance.Click>
+                                        <CommandSwitchTo SceneId="1c152be5-cb30-4684-8d1b-0845d161e59c" Created="06/02/2019 11:15:39" Id="26da2bd7-6451-4c13-9f57-4297192ed242" />
+                                    </ScreenPartInstance.Click>
+                                </ScreenPartInstance>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

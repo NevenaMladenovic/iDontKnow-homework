@@ -1,0 +1,15 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<Project xmlns="http://prototypes.infragistics.com/"
+                                                                                  Id="B5UHUDQE5KYE" StartScreens="/LoginActivity.screen" IndigoVersion="12" RecentColors="#FFFFFFFF,#FFC6C6C6,#FF000000,#FF00574B,#FFE2E2E2,#FFFDE8D6,#FFFBD0AD,#FFF68324,#FFF79646,#AAE2E2E2" LastUsedFonts="Roboto Condensed,Roboto,Open Sans">
+    <Project.Defaults>
+        <ProjectDefaults Viewport="412,690">
+            <ProjectDefaults.Device>
+                <DeviceInfo Id="GenericPhone" Orientation="Portrait" />
+            </ProjectDefaults.Device>
+        </ProjectDefaults>
+    </Project.Defaults>
+    <Project.ScreenpartsCategories>
+        <ScreenpartsCategory Name="SideMenu" Screenparts="/Screenparts/SideMenuClosed.screenpart,/Screenparts/SideMenu closed.screenpart,/Screenparts/SideMenu open.screenpart" />
+        <ScreenpartsCategory Name="LOCATION_LISTS" Screenparts="/Screenparts/PizzeriaList.screenpart,/Screenparts/List.screenpart,/Screenparts/GastroBarList.screenpart,/Screenparts/ConfectioneryList.screenpart,/Screenparts/CaffeeShopList.screenpart,/Screenparts/BeerhouseList.screenpart" />
+    </Project.ScreenpartsCategories>
+</Project>

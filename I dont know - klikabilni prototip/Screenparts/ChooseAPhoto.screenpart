@@ -1,0 +1,98 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                     Id="318446bd-57d6-4a50-af7b-98d94a096260" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="307" Height="156" Background="#00FFFFFF" Id="02fe6255-e525-48c7-89c5-4ebbeaba30dd">
+            <BorderedContent.Layers>
+                <Layer Id="ed44fe59-72b7-429d-ad28-c863a0cd2fa4" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="042cf90b-c457-45e4-a7ee-7180ac318f80" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="86bebab7-6d97-448d-9030-f454287ca764" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="ce63f536-f955-4734-b5f6-7cd196a0f81e" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="06/02/2019 11:04:56" Id="88a2d212-99b0-4578-ad32-bf78c58a408c">
+            <Scene.KeyFrames>
+                <KeyFrame Id="9a96b45d-d453-48f8-b26f-9997d8a512b0">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="ed44fe59-72b7-429d-ad28-c863a0cd2fa4">
+                            <Add.Item>
+                                <ContainerBox Id="93d3007d-cbe5-4688-8aeb-8cb5f5b09d21" Panel.Bounds="0,0,307{5,2147483647},156{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="317452ba-e9f1-4151-9b9e-ed89829c399c">
+                                            <Container.Children>
+                                                <Title RichText="&lt;Run FontSize=&quot;21&quot; &gt;Set profile image&lt;/Run&gt;" FontFamily="Roboto" FontStyle="Bold" Id="fb3b8a70-0c19-48f0-b59d-bf6aba624f97" Panel.Bounds="17,17,5*{5,2147483647},5*{5,2147483647}" />
+                                                <i:Settings Direction="Vertical" Thickness="0" Id="5a645b29-d4e6-41a8-899f-6cedceabf325" Panel.Bounds="2,58,304{5,2147483647},5*{5,2147483647}">
+                                                    <i:Settings.Template>
+                                                        <Template Id="a883a509-0c33-4980-955e-08b6a34f845c">
+                                                            <Template.Content>
+                                                                <ListItemContent Thickness="0" Padding="0" Id="bfb2df96-3698-43a7-85b1-9e92786d06b1" Panel.Bounds="0,0,0*,44" Panel.Layout="Stretch">
+                                                                    <ListItemContent.Content>
+                                                                        <Container ClipToContainer="True" Id="3942fb67-52b8-4227-91ab-810faf860ff4">
+                                                                            <Container.Children>
+                                                                                <i:Label RichText="Item 1" Foreground="#FF000000" FontSize="16" FontStyle="Normal" Id="c7057777-0773-4482-af81-9d539578e545" Panel.Bounds="15,12,0*,0*" />
+                                                                                <Line Thickness="1" Color="#FFE3E3E5" Id="91d0bf2b-a634-489f-a0db-f0239e403c12" Panel.Bounds="15,0,305,3">
+                                                                                    <Line.StartPoint>
+                                                                                        <Point X="5" Id="1839a75a-0f3b-48f6-be0f-c00355057610" />
+                                                                                    </Line.StartPoint>
+                                                                                    <Line.Segments>
+                                                                                        <Segment Id="5ba96962-d127-4ed0-9556-38720017dd6b">
+                                                                                            <Segment.EndPoint>
+                                                                                                <Point X="310" Id="60027b7b-51ec-42db-85b8-a0e6c3bc6df9" />
+                                                                                            </Segment.EndPoint>
+                                                                                        </Segment>
+                                                                                    </Line.Segments>
+                                                                                </Line>
+                                                                            </Container.Children>
+                                                                        </Container>
+                                                                    </ListItemContent.Content>
+                                                                </ListItemContent>
+                                                            </Template.Content>
+                                                        </Template>
+                                                    </i:Settings.Template>
+                                                    <i:Settings.Items>
+                                                        <ListItem Id="0359e0d7-0d7f-4f25-aceb-c3ddab53140e">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="67f8ec33-b5a4-4a7f-b259-8b5076cb548e">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Panel.Bounds" Value="15,10,0*,0*" Target="c7057777-0773-4482-af81-9d539578e545" />
+                                                                        <Set Property="Panel.Bounds" Value="0,0,0*,42" Target="bfb2df96-3698-43a7-85b1-9e92786d06b1" />
+                                                                        <Set Property="Label.RichText" Value="Take a picture" Target="c7057777-0773-4482-af81-9d539578e545" />
+                                                                        <Remove Target="91d0bf2b-a634-489f-a0db-f0239e403c12" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                        <ListItem Id="20bac0b9-54f5-4aab-b76c-8a3b98676045">
+                                                            <ListItem.Content>
+                                                                <SharedPart Id="519d4d6e-929a-4402-b546-0a9a0d65b654">
+                                                                    <SharedPart.Customizations>
+                                                                        <Set Property="Label.RichText" Value="Choose from gallery" Target="c7057777-0773-4482-af81-9d539578e545" />
+                                                                    </SharedPart.Customizations>
+                                                                </SharedPart>
+                                                            </ListItem.Content>
+                                                        </ListItem>
+                                                    </i:Settings.Items>
+                                                </i:Settings>
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>

@@ -1,0 +1,114 @@
+﻿<?Infragistics.Models format="xaml" version="4" appVersion="12.0.0.8"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                     xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                     xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                     Id="f2211c40-01a2-463c-b0da-4367f014a43a" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="192" Height="341" Background="#00FFFFFF" Id="feed20c7-7665-48e0-91ad-d17dfe7ec908">
+            <BorderedContent.Layers>
+                <Layer Id="229ab310-e45e-4946-9075-8fe1f3c62587" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="5f05a653-1e1b-4f85-a55e-9b266fd2e430" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="614d31bd-6b90-4b9d-9f07-e3c75a76e656" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="ae3b06aa-9461-4103-80b2-7c6b2a1efa8c" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="05/28/2019 02:41:21" Id="63a965a4-9071-4131-b151-b233009542df">
+            <Scene.KeyFrames>
+                <KeyFrame Id="bece587d-8018-41c8-bdad-014c5bbf0702">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="229ab310-e45e-4946-9075-8fe1f3c62587">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="d7d0ed7e-0833-4490-998b-a8afccc8b06f" Panel.Bounds="20,28,0*,0*">
+                                    <Group.Children>
+                                        <i:Toolbar Id="4e7883d9-5d00-43c4-8540-504278bd7325" Panel.Bounds="-20,-28,167{5,2147483647},343{20,2147483647}" />
+                                        <Group GroupName="Group" Id="3c13def7-b2b2-474f-8dc6-4c6a9c5abfe4" Panel.Bounds="-6,0,0*,0*">
+                                            <Group.Children>
+                                                <Group GroupName="Group" Id="d07bc34c-a5db-45c0-ae41-ac0a9af45df7" Panel.Bounds="0,-2,0*,0*">
+                                                    <Group.Children>
+                                                        <Icon CatalogId="fa-coffee" Id="7e9c2880-b8e1-4f31-8746-7dea7f043c95" Panel.Bounds="107,-10,33{5,2147483647},33{5,2147483647}" />
+                                                        <i:Label RichText="Caffee Shop" FontFamily="Open Sans" Id="32bbb24a-1af0-4c41-b4cb-7792db51b23b" Panel.Bounds="0,-4,90{5,2147483647},22{5,2147483647}" />
+                                                    </Group.Children>
+                                                </Group>
+                                                <Group GroupName="Group" Id="6a9f8071-abd1-448e-bfdb-3191c232342e" Panel.Bounds="0,43,0*,0*">
+                                                    <Group.Children>
+                                                        <Icon CatalogId="la-beer" Id="133f5615-2de4-4fa6-9f9f-7fca88fe6343" Panel.Bounds="107,-6,36{5,2147483647},36{5,2147483647}" />
+                                                        <i:Label RichText="Beerhouse" FontFamily="Open Sans" Id="cc0962ee-52fe-434e-9174-2377d02e35cc" Panel.Bounds="0,1,81{5,2147483647},22{5,2147483647}" />
+                                                    </Group.Children>
+                                                </Group>
+                                                <Group GroupName="Group" Id="0fcaf3ad-c34d-4a06-9a69-accf26fcf462" Panel.Bounds="0,175,0*,0*">
+                                                    <Group.Children>
+                                                        <Icon CatalogId="la-birthday-cake" Id="e8552e3f-ba1e-4b6d-bc27-5b09dae12bef" Panel.Bounds="103,5,37{5,2147483647},37{5,2147483647}" />
+                                                        <i:Label RichText="Confectionery" FontFamily="Open Sans" Id="30a148e7-9542-40bf-b78e-62c999e34194" Panel.Bounds="0,13,105{5,2147483647},22{5,2147483647}" />
+                                                    </Group.Children>
+                                                </Group>
+                                                <i:Slider Value="52" Id="f9a16605-042c-4513-8a91-5cdf2bb610ba" Panel.Bounds="0,266,138{28,2147483647},5*{5,2147483647}" />
+                                                <Group GroupName="Group" Id="eb336bb3-1dd5-4b78-b638-0905f7798e74" Panel.Bounds="0,88,0*,0*">
+                                                    <Group.Children>
+                                                        <i:Label RichText="Pizzeria" FontFamily="Open Sans" Id="a5c2c80e-be50-4fab-8ac6-da265620c043" Panel.Bounds="0,4,57{5,2147483647},22{5,2147483647}" />
+                                                        <Image SourcePath="assets/pizza(1).png" Id="edc94491-f509-4065-bea5-9db6e28c80d3" Panel.Bounds="107,-1,35{5,2147483647},32{5,2147483647}" />
+                                                    </Group.Children>
+                                                </Group>
+                                                <i:Label RichText="Radius:" FontFamily="Open Sans" Id="1c74a0a3-0d4a-4560-9737-e2fe7313e614" Panel.Bounds="0,239,55{5,2147483647},22{5,2147483647}" />
+                                                <Group GroupName="Group" Id="545b2730-c162-4e6d-99ef-fd076e63c60c" Panel.Bounds="0,130,0*,0*">
+                                                    <Group.Children>
+                                                        <i:Label RichText="Gasto Bar" FontFamily="Open Sans" Id="a60c4f43-0934-4c96-8017-357e17ac5b97" Panel.Bounds="0,9,70{5,2147483647},22{5,2147483647}" />
+                                                        <Icon CatalogId="fa-glass" Id="ab47eac7-b328-4a6d-8f39-f03c666e6fa8" Panel.Bounds="107,5,29{5,2147483647},29{5,2147483647}" />
+                                                    </Group.Children>
+                                                </Group>
+                                            </Group.Children>
+                                        </Group>
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="229ab310-e45e-4946-9075-8fe1f3c62587">
+                            <Add.Item>
+                                <Group GroupName="Group" Id="124e3223-eaef-4024-8c04-016839fc86fb" Panel.Bounds="160,145,0*,0*">
+                                    <Group.Children>
+                                        <Polyline Thickness="1" IsClosed="True" RotationAngle="1.9194148735767" Color="#00FFFFFF" Id="408a6065-4a9c-4405-8c68-6b6f73b15bcb" Panel.Bounds="3,0,29,72">
+                                            <Polyline.StartPoint>
+                                                <Point X="-4" Y="35" Id="adf17c7d-d935-4c3c-98d9-bbf94e84e7b5" />
+                                            </Polyline.StartPoint>
+                                            <Polyline.Segments>
+                                                <Segment Id="f8bc87b1-e419-4afd-949a-d7778cbf2693">
+                                                    <Segment.EndPoint>
+                                                        <Point X="28" Y="14" Id="2ff451ef-a1c3-407d-ba8d-709795f5d5a1" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="564c7a36-c9f1-4be0-a19b-e6507f6dd191">
+                                                    <Segment.EndPoint>
+                                                        <Point X="24" Y="-26" Id="93ba031f-6fab-4253-8546-7c716dda8d05" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="2b77398c-de66-4fe8-84e8-1bf5b7853d50">
+                                                    <Segment.EndPoint>
+                                                        <Point X="-3" Y="-33" Id="bd71a922-6a22-4c19-a417-9b15ff6c443b" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                                <Segment Id="245ab072-bf30-475d-bb12-df781457c7df">
+                                                    <Segment.EndPoint>
+                                                        <Point X="-4" Y="35" Id="f2618a69-67ff-4acf-b488-e3f98717280b" />
+                                                    </Segment.EndPoint>
+                                                </Segment>
+                                            </Polyline.Segments>
+                                        </Polyline>
+                                        <Icon CatalogId="fa-angle-double-left" Id="38bbd78f-4820-437c-9107-b87084925509" Panel.Bounds="0,15,32{5,2147483647},32{5,2147483647}" />
+                                    </Group.Children>
+                                </Group>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>
